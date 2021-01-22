@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d2106b9"],{b88e:function(e,n,a){"use strict";a.r(n);var s=function(){var e=this,n=e.$createElement,a=e._self._c||n;return a("h1",[e._v("Esta es la pagina de Escolares")])},t=[],l={},c=l,u=a("2877"),r=Object(u["a"])(c,s,t,!1,null,null,null);n["default"]=r.exports}}]);
+//# sourceMappingURL=chunk-2d2106b9.4ffad094.js.map
