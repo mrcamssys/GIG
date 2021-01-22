@@ -23,6 +23,8 @@ export default {
   padding: 15px;
 }
 body {
-  font-family: "Allan", cursive;
+  /*font-family: "Allan", cursive;*/
+  font-family: 'Alegreya', serif;
+
 }
 </style>
