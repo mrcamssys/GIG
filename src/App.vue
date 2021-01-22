@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-   /* eslint-disable no-eval */
     <menux />
     <b-container fluid="md">
       <br />
