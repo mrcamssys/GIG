@@ -1,7 +1,12 @@
 #https://stackoverflow.com/questions/58065603/netlify-renders-404-on-page-refresh-using-react-and-react-router 
+#[build]
+#  command = "npm run build"
+#  publish = "/dist"
+#  base = "/"
+
 [build]
   command = "npm run build"
-  publish = "/dist"
+  publish="dist"
   base = "/"
 
 [[redirects]]
