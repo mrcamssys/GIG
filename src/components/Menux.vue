@@ -22,9 +22,8 @@
             @click="
               nuevaruta('https://www.facebook.com/gimnasioguatiquia.edu.co')
             "
-            class="f1"
-            ><b-icon icon="facebook" font-scale="1"></b-icon
-          ></b-btn>
+            class="f1"><b-icon icon="facebook" font-scale="1"></b-icon></b-btn>
+
           <b-btn
             @click="
               nuevaruta(
@@ -32,11 +31,17 @@
               )
             "
             class="y1"
-            ><b-icon icon="youtube" font-scale="1"></b-icon
-          ></b-btn>
+            ><b-icon icon="youtube" font-scale="1"></b-icon></b-btn>
           <b-btn to="/plataformas" class="btn-presentacion"
-            ><b-icon icon="camera" font-scale="1"></b-icon> Plataformas</b-btn
-          >
+            ><b-icon icon="camera" font-scale="1"></b-icon> Saberes</b-btn>
+          
+          <b-btn @click="
+              nuevaruta(
+                'https://educaevoluciona.com/ingreso.html'
+              )
+            " class="y2"
+            ><b-icon icon="camera" font-scale="1"></b-icon> Educar Norma</b-btn>
+
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
@@ -54,9 +59,17 @@ export default {
           "Areas del Saber",
           "Elementos Escolares",
           "Sedes",
-          "Admisiones & Registro"
+          "Admisiones & Registro",
+          "Contacto"
         ],
-        menruta: ["/colegio", "/areas", "/escolares", "/sedes", "/admisiones"]
+        menruta: [
+          "/colegio", 
+          "/areas", 
+          "/escolares", 
+          "/sedes", 
+          "/admisiones",
+          "/admisiones"
+          ]
       }
     };
   },
@@ -113,6 +126,21 @@ export default {
 }
 .y1:hover {
   background-color: rgba(231, 18, 18, 0.7);
+  color: blanchedalmond;
+  margin: 0px;
+  border: 5px solid #eee;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+}
+
+.y2{
+  background-color: rgba(18, 103, 231, 0.7);
+  color: blanchedalmond;
+  margin: 2px;
+}
+.y2:hover {
+  background-color: rgba(27, 7, 116, 0.7);
   color: blanchedalmond;
   margin: 0px;
   border: 5px solid #eee;
