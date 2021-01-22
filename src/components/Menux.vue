@@ -1,0 +1,123 @@
+<template>
+  <div>
+    <b-navbar toggleable="lg" variant="light">
+      <b-navbar-brand href="#" to="/">
+        <img src="logos/logo.png" class="logo" />
+      </b-navbar-brand>
+      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+      <b-collapse id="nav-collapse" is-nav>
+        <b-navbar-nav>
+          <b-nav-item
+            v-for="(item, id) in menuprincipal.menom"
+            :key="id"
+            font-scale="6"
+            :to="menuprincipal.menruta[id]"
+          >
+            {{ item }}
+          </b-nav-item>
+        </b-navbar-nav>
+        <!-- Right aligned nav items -->
+        <b-navbar-nav class="ml-auto">
+          <b-btn
+            @click="
+              nuevaruta('https://www.facebook.com/gimnasioguatiquia.edu.co')
+            "
+            class="f1"
+            ><b-icon icon="facebook" font-scale="1"></b-icon
+          ></b-btn>
+          <b-btn
+            @click="
+              nuevaruta(
+                'https://www.youtube.com/channel/UCA-uViVcw5eRX70yLo1EgUw'
+              )
+            "
+            class="y1"
+            ><b-icon icon="youtube" font-scale="1"></b-icon
+          ></b-btn>
+          <b-btn to="/plataformas" class="btn-presentacion"
+            ><b-icon icon="camera" font-scale="1"></b-icon> Plataformas</b-btn
+          >
+        </b-navbar-nav>
+      </b-collapse>
+    </b-navbar>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "Menux",
+  data() {
+    return {
+      menuprincipal: {
+        menom: [
+          "El Colegio",
+          "Areas del Saber",
+          "Elementos Escolares",
+          "Sedes",
+          "Admisiones & Registro"
+        ],
+        menruta: ["/colegio", "/areas", "/escolares", "/sedes", "/admisiones"]
+      }
+    };
+  },
+  methods: {
+    nuevaruta(ruta) {
+      window.open(ruta, "_blank");
+    }
+  }
+};
+</script>
+
+<style>
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgba(15, 78, 12, 0.7);
+}
+
+.navbar {
+  box-shadow: 0px 0px 10px rgb(184, 182, 182);
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.7);
+}
+.btn-presentacion {
+  background-color: rgba(15, 78, 12, 0.7);
+  margin: 2px;
+}
+.btn-presentacion:hover {
+  background-color: rgba(60, 114, 175, 0.7);
+  margin: 0px;
+  border: 5px solid #eee;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+}
+
+.f1 {
+  background-color: rgba(17, 39, 233, 0.7);
+  color: blanchedalmond;
+  margin: 2px;
+}
+.f1:hover {
+  background-color: rgba(17, 39, 233, 0.7);
+  color: blanchedalmond;
+  margin: 0px;
+  border: 5px solid #eee;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+}
+.y1 {
+  background-color: rgba(231, 18, 18, 0.7);
+  color: blanchedalmond;
+  margin: 2px;
+}
+.y1:hover {
+  background-color: rgba(231, 18, 18, 0.7);
+  color: blanchedalmond;
+  margin: 0px;
+  border: 5px solid #eee;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+}
+</style>
