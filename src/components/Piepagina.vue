@@ -24,11 +24,26 @@
             <h5 class="text-uppercase mb-4 mt-3 font-weight-bold">
               Herramientas
             </h5>
-            <ul class="list-unstyled">
-              <li><a href="#!">Phet Laboratory</a></li>
-              <li><a href="#!">Red Distrital de Bibliotecas</a></li>
-              <li><a href="#!">Secretaria de Educacion Bogotá</a></li>
-              <li><a href="#!">Ministerio de Tecnologias</a></li>
+            <ul class="listadovinculos">
+              <li><a href="https://phet.colorado.edu/es/simulations/browse" target="_blank">
+              <img src="https://phet.colorado.edu/favicon.ico" />
+              Phet Laboratory</a></li>
+
+              <li><a href="https://www.tinkercad.com/" target="_blank">
+              <img src="https://www.tinkercad.com/img/favicon.ico" />
+              Simulador de Tecnologia</a></li>
+
+              <li><a href="https://www.biblored.gov.co/BibloRed-en-mi-Casa" target="_blank">
+              <img src="https://www.biblored.gov.co/sites/default/files/logo.png" />
+              Red Distrital de Bibliotecas</a></li>
+
+              <li><a href="https://www.educacionbogota.edu.co/portal_institucional/servicio-ciudadania2" target="_blank">
+              <img src="https://www.educacionbogota.edu.co/portal_institucional/themes/sed_govimentum8/favicon.ico" />
+              Secretaria de Educacion Bogotá</a></li>
+
+              <li><a href="https://www.mintic.gov.co/portal/inicio/Atencion-al-Publico/Informacion-para/Sector-Academico/" target="_blank">
+              <img src="https://www.mintic.gov.co/portal/604/boxes-6290_favicon.ico" />
+              Ministerio de Tecnologias</a></li>
             </ul>
           </mdb-col>
           <hr class="clearfix w-100 d-md-none" />
@@ -80,5 +95,23 @@ export default {
 .data1 {
   background-color: rgb(26, 26, 27) !important;
   color: darkgray;
+}
+.listadovinculos li{
+  list-style:none;
+  -moz-text-decoration-line: none;
+}
+.listadovinculos a{
+  left: 0px;
+  list-style-position: outside;
+  text-decoration-color: blanchedalmond;
+  color: bisque;
+  font-size:small;
+}
+.listadovinculos img{
+  width: 30px;
+}
+.listadovinculos ul{
+  padding: 5px;
+  margin: 5px;
 }
 </style>
