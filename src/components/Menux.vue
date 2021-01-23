@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-navbar toggleable="lg" variant="light">
+    <b-navbar class="menucabeza" toggleable="lg" variant="light">
       <b-navbar-brand href="#" to="/">
         <img src="logos/logo.png" class="logo" />
       </b-navbar-brand>
@@ -146,5 +146,8 @@ export default {
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
+}
+.menucabeza{
+  opacity: 80%;
 }
 </style>

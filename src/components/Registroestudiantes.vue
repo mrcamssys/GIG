@@ -115,13 +115,13 @@
         </b-row>
       </b-container>
       <hr />
-      <b-button type="submit" variant="primary">Submit</b-button>
-      <b-button type="reset" variant="danger">Reset</b-button>
+      <b-button type="Enviar" variant="primary">Registrar Consulta</b-button>
+      <b-button type="reset" variant="danger">Limpiar Formulario</b-button>
     </b-form>
 
-    <b-card class="mt-3" header="verificador de datos de respuesta">
+    <!-- <b-card class="mt-3" header="verificador de datos de respuesta">
       <pre class="m-0">{{ form }}</pre>
-    </b-card>
+    </b-card> -->
   </div>
 </template>
 
