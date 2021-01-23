@@ -18,7 +18,7 @@
         </b-navbar-nav>
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
-          <b-btn
+          <!-- <b-btn
             @click="
               nuevaruta('https://www.facebook.com/gimnasioguatiquia.edu.co')
             "
@@ -30,8 +30,8 @@
                 'https://www.youtube.com/channel/UCA-uViVcw5eRX70yLo1EgUw'
               )
             "
-            class="y1"
-            ><b-icon icon="youtube" font-scale="1"></b-icon></b-btn>
+            class="y1"><b-icon icon="youtube" font-scale="1"></b-icon></b-btn> -->
+          
           <b-btn to="/plataformas" class="btn-presentacion"
             ><b-icon icon="camera" font-scale="1"></b-icon> Saberes</b-btn>
           
@@ -39,8 +39,7 @@
               nuevaruta(
                 'https://educaevoluciona.com/ingreso.html'
               )
-            " class="y2"
-            ><b-icon icon="camera" font-scale="1"></b-icon> Educar Norma</b-btn>
+            " class="y2"><b-icon icon="camera" font-scale="1"></b-icon> Educar Norma</b-btn>
 
         </b-navbar-nav>
       </b-collapse>
