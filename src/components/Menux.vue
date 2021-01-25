@@ -164,7 +164,7 @@ export default {
 
 @media (max-width: 990px), handheld and (orientation: landscape){  
   .dlogo{
-    position:fixed;
+    position:relative;
     left: 0px;
     top: 0px;
     background-color:transparent; 
