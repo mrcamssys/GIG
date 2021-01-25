@@ -160,4 +160,14 @@ export default {
   top: 0px;
   background-color: rgb(213, 210, 210);
 }
+
+
+@media (max-width: 990px), handheld and (orientation: landscape){  
+  .dlogo{
+    position:fixed;
+    left: 0px;
+    top: 0px;
+    background-color:transparent; 
+  }
+}
 </style>
