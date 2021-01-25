@@ -69,8 +69,8 @@ export default {
           "/areas", 
           "/escolares", 
           "/sedes", 
-          "/admisiones",
-          "/admisiones"
+          "/nadmisiones",
+          "/contactos"
           ]
       }
     };

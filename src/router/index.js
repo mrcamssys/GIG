@@ -31,9 +31,14 @@ const routes = [
     component: () => import("../views/Sedes.vue")
   },
   {
-    path: "/admisiones",
+    path: "/nadmisiones",
     name: "admisiones",
-    component: () => import("../views/Admisiones.vue")
+    component: () => import("../views/Nadmisiones.vue")
+  },
+  {
+    path: "/contactos",
+    name: "admisiones",
+    component: () => import("../views/Contactos.vue")
   },
   {
     path: "/plataformas",
