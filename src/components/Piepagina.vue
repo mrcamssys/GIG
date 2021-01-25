@@ -138,4 +138,12 @@ export default {
   filter: grayscale(0%);
 }
 
+@media (max-width: 990px), handheld and (orientation: landscape){  
+  .divfondo{
+    background-image: url('https://i.pinimg.com/originals/ce/10/5f/ce105fda85be60e90b3fec3a1a43b799.jpg') !important;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+  }
+}
+
 </style>
