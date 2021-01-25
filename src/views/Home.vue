@@ -7,10 +7,10 @@
         <b-col md="3">
             <colapsever />          
         </b-col>
-        <b-col md="6"> </b-col>
-        <b-col md="3">
+        <b-col md="4"> </b-col>
+        <b-col md="5">
           <div>
-            <div>
+            <!-- <div>
               <b-card
             title="Imagenes institucionales"
             img-src="/fondos/matriculas.jpg"
@@ -29,16 +29,23 @@
               >Comenzar Registro</b-button
             >
           </b-card>
-            </div>
-            <br />
-            <b-card img-src="/fondos/humano.jpeg" img-alt="Card image" img-top>
+            </div> -->
+                        
+             <b-card img-src="" img-alt="Card image" img-top>     
+                <b-card-header header-tag="header" class="p-1" role="tab" end>
+                  <b-button block v-b-toggle.accordion-2 variant="success"><b-icon icon="inbox-fill"></b-icon>
+                  Videos Institucuonales</b-button>
+                </b-card-header>    
               <b-card-text>
-                El colegio Gimnasio Integral Guatiquia ofrece a la comunidad una
+                
+                <iframe width="100%"  src="https://www.youtube.com/embed/w8KBJ3oNG_4?list=UUA-uViVcw5eRX70yLo1EgUw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+                 El colegio Gimnasio Integral Guatiquia ofrece a la comunidad una
                 educación solida basada en principios y valores éticos, morales
                 y culturales.
               </b-card-text>
-            </b-card>
-            <br />
+            </b-card><br /><br /><br /><br />
+
           </div>
         </b-col>
       </b-row>
