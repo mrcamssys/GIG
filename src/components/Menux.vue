@@ -5,7 +5,7 @@
         <div class="logo"></div>
         <div class="dlogo">
         <img src="logos/logo.png" class="logo" /> 
-        
+
         </div>
       </b-navbar-brand>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -152,7 +152,7 @@ export default {
   -ms-transition: all 0.5s ease;
 }
 .menucabeza{
-  opacity: 80%;
+  opacity: 90%;
 }
 .dlogo{
   position:absolute;
