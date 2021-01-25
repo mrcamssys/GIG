@@ -5,7 +5,6 @@
         <div class="logo"></div>
         <div class="dlogo">
         <img src="logos/logo.png" class="logo" /> 
-
         </div>
       </b-navbar-brand>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -164,10 +163,16 @@ export default {
 
 @media (max-width: 990px), handheld and (orientation: landscape){  
   .dlogo{
-    position:relative;
+    position:unset;
     left: 0px;
-    top: 0px;
+    top:  0px;
     background-color:transparent; 
+    padding: 0px;
+    margin: 0px;
+  }
+  .logo {
+    width: 30% !important;
+    padding: 0px !important;
   }
 }
 </style>
