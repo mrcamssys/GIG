@@ -4,7 +4,8 @@
       <b-navbar-brand  href="#" to="/">
         <div class="logo"></div>
         <div class="dlogo">
-        <img src="logos/logo.png" class="logo" />
+        <img src="logos/logo.png" class="logo" /> 
+        
         </div>
       </b-navbar-brand>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
