@@ -1,8 +1,11 @@
 <template>
   <div>
     <b-navbar class="menucabeza" toggleable="lg" variant="light">
-      <b-navbar-brand href="#" to="/">
+      <b-navbar-brand  href="#" to="/">
+        <div class="logo"></div>
+        <div class="dlogo">
         <img src="logos/logo.png" class="logo" />
+        </div>
       </b-navbar-brand>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
@@ -149,5 +152,11 @@ export default {
 }
 .menucabeza{
   opacity: 80%;
+}
+.dlogo{
+  position:absolute;
+  left: 10px;
+  top: 0px;
+  background-color: rgb(213, 210, 210);
 }
 </style>

@@ -5,6 +5,7 @@ import "./plugins/bootstrap-vue";
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
+import '../node_modules/timeline-vuejs/dist/timeline-vuejs.css';
 
 Vue.config.productionTip = false;
 

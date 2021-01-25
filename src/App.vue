@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <menux />
-    <b-container fluid="md">
+    <b-container fluid>
       <br />
       <div class="social-bar">
         <a href="https://www.facebook.com/gimnasioguatiquia.edu.co" class="icon icon-facebook" target="_blank"></a>

@@ -2,12 +2,15 @@
   <mdb-footer class="page-footer font-small pt-4 mt-4 ">
     <hr />
     <div class="stylish">
-      <mdb-container class="text-left ">
+      <div class="divfondo">
+      
+      <mdb-container class="text-left">
         <mdb-row>
           <mdb-col md="6">
             <h5 class="text-uppercase mb-4 mt-3 font-weight-bold">
               Nuestra Institucion
             </h5>
+            <hr>
             <p>
               Hacer parte de la comunidad educativa Guatiquia, implica disfrutar
               y poner en práctica los derechos y deberes que buscan el
@@ -18,63 +21,85 @@
               educativa, en donde el eje central es el ser humano integral como
               agente de cambio y transformador de su entorno.
             </p>
+
+            
           </mdb-col>
           <hr class="clearfix w-100 d-md-none" />
           <mdb-col md="3">
             <h5 class="text-uppercase mb-4 mt-3 font-weight-bold">
-              Herramientas
-            </h5>
-            <ul class="listadovinculos">
-              <li><a href="https://phet.colorado.edu/es/simulations/browse" target="_blank">
-              <img src="https://phet.colorado.edu/favicon.ico" />
-              Phet Laboratory</a></li>
+              Paginas Auxiliares
+            </h5> 
+            <hr>
 
-              <li><a href="https://www.tinkercad.com/" target="_blank">
-              <img src="https://www.tinkercad.com/img/favicon.ico" />
-              Simulador de Tecnologia</a></li>
+            <div>
+               <a v-for="(imgs, id) in imgiconos" :key="id"  @href="imgrutas[id]" target="_blank">
+                <b-img class="iconos"  rounded="0" :src="imgs" ></b-img>
+               </a>
+            </div>
 
-              <li><a href="https://www.biblored.gov.co/BibloRed-en-mi-Casa" target="_blank">
-              <img src="https://www.biblored.gov.co/sites/default/files/logo.png" />
-              Red Distrital de Bibliotecas</a></li>
-
-              <li><a href="https://www.educacionbogota.edu.co/portal_institucional/servicio-ciudadania2" target="_blank">
-              <img src="https://www.educacionbogota.edu.co/portal_institucional/themes/sed_govimentum8/favicon.ico" />
-              Secretaria de Educacion Bogotá</a></li>
-
-              <li><a href="https://www.mintic.gov.co/portal/inicio/Atencion-al-Publico/Informacion-para/Sector-Academico/" target="_blank">
-              <img src="https://www.mintic.gov.co/portal/604/boxes-6290_favicon.ico" />
-              Ministerio de Tecnologias</a></li>
-            </ul>
           </mdb-col>
           <hr class="clearfix w-100 d-md-none" />
           <mdb-col md="3" center>
             <h5 class="text-uppercase mb-4 mt-3 font-weight-bold">
               Informacion
             </h5>
-            <b-img class="loder" src="logos/loder.png" alt="GIG Logo"></b-img>
+            <hr>
             <p>
-              Cll 59A Sur N° 45d-02/08<br />Horario: 630am A 2:00pm<br />Telefono:
-              715 18 27
+              <b>Representante legal:</b><br>
+              Rectora: Lic. Rubiela Angel Galvis.<br>
+              recotoria@gimnasioguatiquia.edu.co<br>
             </p>
+            <hr>
+            <!-- <b-img class="loder" src="logos/loder.png" alt="GIG Logo"></b-img> -->
+            <p>
+              <b-icon icon="geo-alt-fill"></b-icon>
+              Cll 59A Sur N° 45d-02/08<br />
+              <b-icon icon="telephone-outbound-fill"></b-icon>
+              Telefono: 715 18 27<br>
+              <b-icon icon="clock"></b-icon>
+              Lunes a Viernes 6:30AM a 2:00PM<br>
+            </p>
+            <div>
+               <a href="https://www.educacionbogota.edu.co/portal_institucional/servicio-ciudadania2" target="_blank">
+                <b-img height="80px"  rounded="0" src="https://www.culturarecreacionydeporte.gov.co/sites/default/files/adjuntos_paginas_2014/logo_bogota_png_byn_rojo-01.png" ></b-img>
+               </a>
+            </div>
           </mdb-col>
         </mdb-row>
       </mdb-container>
+      
+      
       <hr />
       <div class="footer-copyright text-center py-3 data1">
         <mdb-container fluid>
           &copy; 2021 Copyright: Colegio Gimnasio Integral Guatiquia.
           Desarrollo: Lic. Carlos A. Moreno S.
-        </mdb-container>
+        </mdb-container></div>
       </div>
-    </div>
+    </div> 
   </mdb-footer>
-  <!-- Footer -->
 </template>
 
 <script>
 import { mdbFooter, mdbContainer, mdbRow, mdbCol } from "mdbvue";
 export default {
   name: "FooterPage",
+  data(){
+    return{
+      imgiconos:[
+        'https://phet.colorado.edu/images/phet-social-media-logo.png',
+        'https://www.tinkercad.com/img/favicon.ico',
+        "https://pbs.twimg.com/profile_images/1334165539388788737/CpQQmutj.jpg",
+        "https://www.valoraanalitik.com/wp-content/uploads/2019/11/MIN-TIC.png"
+        ],
+      imgrutas:[
+        'https://phet.colorado.edu/es/simulations/browse',
+        'https://www.tinkercad.com/',
+        'https://www.biblored.gov.co/BibloRed-en-mi-Casa',
+        'https://www.mintic.gov.co/portal/inicio/Atencion-al-Publico/Informacion-para/Sector-Academico/',
+        ]
+    }
+  },
   components: {
     mdbFooter,
     mdbContainer,
@@ -85,6 +110,11 @@ export default {
 </script>
 
 <style scoped>
+.divfondo{
+  background-image: url('https://i.pinimg.com/originals/ce/10/5f/ce105fda85be60e90b3fec3a1a43b799.jpg') !important;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
 .loder {
   width: 80px;
 }
@@ -96,22 +126,16 @@ export default {
   background-color: rgb(26, 26, 27) !important;
   color: darkgray;
 }
-.listadovinculos li{
-  list-style:none;
-  -moz-text-decoration-line: none;
+
+.iconos{
+  padding: 10px;
+  height: 100px;
+  filter: grayscale(80%);
 }
-.listadovinculos a{
-  left: 0px;
-  list-style-position: outside;
-  text-decoration-color: blanchedalmond;
-  color: bisque;
-  font-size:small;
+.iconos:hover{
+  padding: 10px;
+  height: 120px;
+  filter: grayscale(0%);
 }
-.listadovinculos img{
-  width: 30px;
-}
-.listadovinculos ul{
-  padding: 5px;
-  margin: 5px;
-}
+
 </style>
