@@ -47,7 +47,10 @@
             <p>
               <b>Representante legal:</b><br>
               Rectora: Lic. Rubiela Angel Galvis.<br>
-              Email: <a href="rectoria@gimnasioguatiquia.edu.co">rectoria@gimnasioguatiquia.edu.co</a>
+              <hr>
+              <b>Comunicacion Secretaria:</b><br>
+              Email: <a href="soporteadministrativo@gimnasioguatiquia.edu.co">soporteadministrativo@gimnasioguatiquia.edu.co</a><br>
+              Celular: +57 319 209 86 59
               <br>
             </p>
             <hr>
