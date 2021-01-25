@@ -152,7 +152,7 @@ export default {
   -ms-transition: all 0.5s ease;
 }
 .menucabeza{
-  opacity: 90%;
+  opacity: 0.9;
 }
 .dlogo{
   position:absolute;
