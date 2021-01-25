@@ -3,7 +3,7 @@
 <b-container fluid="md">
   <h1>Historia Institucional</h1>
      <div class="row">
-        <b-card v-for="(contenido, id) in dataTimeline.reverse()" :bg-variant="contenido.estilo" :text-variant="contenido.color"  tag="article" style="max-width: 20rem; margin: 3px;"  class=" d-flex mb-2" deck>     
+        <b-card v-for="(contenido, id) in dataTimeline" :bg-variant="contenido.estilo" :text-variant="contenido.color"  tag="article" style="max-width: 20rem; margin: 3px;"  class=" d-flex mb-2" deck>     
             <b-card-header header-tag="header" class="p-1" role="tab" end>
               <h3>
               {{contenido.title}}</h3>
