@@ -33,7 +33,7 @@
                 'https://www.youtube.com/channel/UCA-uViVcw5eRX70yLo1EgUw'
               )
             "
-            class="y1"><b-icon icon="youtube" font-scale="1"></b-icon></b-btn> mail.office365.com-->
+            class="y1"><b-icon icon="youtube" font-scale="1"></b-icon></b-btn> -->
           
           <b-btn to="/plataformas" class="btn-presentacion"
             ><b-icon icon="camera" font-scale="1"></b-icon> Saberes</b-btn>
@@ -46,9 +46,9 @@
 
             <b-btn @click="
               nuevaruta(
-                'https://educaevoluciona.com/ingreso.html'
+                'mail.office365.com'
               )
-            " class="y3"><b-icon icon="mailbox" font-scale="1"></b-icon>Correo</b-btn>
+            " class="y3"><b-icon icon="mailbox" font-scale="1"></b-icon>office365</b-btn>
 
         </b-navbar-nav>
       </b-collapse>
