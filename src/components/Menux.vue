@@ -46,7 +46,7 @@
 
             <b-btn @click="
               nuevaruta(
-                'mail.office365.com'
+                'https://mail.office365.com'
               )
             " class="y3"><b-icon icon="mailbox" font-scale="1"></b-icon>office365</b-btn>
 
