@@ -33,7 +33,7 @@
                 'https://www.youtube.com/channel/UCA-uViVcw5eRX70yLo1EgUw'
               )
             "
-            class="y1"><b-icon icon="youtube" font-scale="1"></b-icon></b-btn> -->
+            class="y1"><b-icon icon="youtube" font-scale="1"></b-icon></b-btn> mail.office365.com-->
           
           <b-btn to="/plataformas" class="btn-presentacion"
             ><b-icon icon="camera" font-scale="1"></b-icon> Saberes</b-btn>
@@ -43,6 +43,12 @@
                 'https://educaevoluciona.com/ingreso.html'
               )
             " class="y2"><b-icon icon="camera" font-scale="1"></b-icon> Educar Norma</b-btn>
+
+            <b-btn @click="
+              nuevaruta(
+                'https://educaevoluciona.com/ingreso.html'
+              )
+            " class="y3"><b-icon icon="mailbox" font-scale="1"></b-icon>Correo</b-btn>
 
         </b-navbar-nav>
       </b-collapse>
