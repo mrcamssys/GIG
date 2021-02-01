@@ -61,14 +61,12 @@ export default {
   name: "Menux",
   data() {
     return {
+      // se debe colocar registros en base de datos
       menuprincipal: {
         menom: [
           "El Colegio",
           "Areas del Saber",
-          "Elementos Escolares",
           "Sedes",
-          "Admisiones & Registro",
-          "Contacto"
         ],
         menruta: [
           "/colegio", 
