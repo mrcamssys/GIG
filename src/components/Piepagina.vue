@@ -128,9 +128,8 @@ export default {
   left: 4%;
   z-index: -5; 
   width:650px; 
-  border-right: 60px solid transparent; 
-  border-left: 60px solid transparent; 
-  border-bottom: 100px solid #fff;
+  background-color: #fff; 
+  opacity: 0.8;
 }
 
 @media (max-width: 990px), handheld and (orientation: landscape){  
@@ -149,6 +148,7 @@ export default {
     width:100%;
     height: 100%;
     background-color: #fff; 
+    opacity: 0.8;
   }
   
 }
