@@ -1,6 +1,6 @@
 # Pagina oficial Colegio Gimnasio Integral Guatiquia.
 
- Este proyecto se esta programando bajo vuejs 2, aun se encuentra en su fase inicial.
+ Este proyecto se esta programando bajo vuejs 2 y boostrap 4, aun se encuentra en su fase inicial.
 
 ## Project setup
 ```
