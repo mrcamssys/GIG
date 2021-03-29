@@ -1,4 +1,6 @@
-# mypagina2
+# Pagina oficial Colegio Gimnasio Integral Guatiquia.
+
+ Este proyecto se esta programando bajo vuejs 2, aun se encuentra en su fase inicial.
 
 ## Project setup
 ```
@@ -22,4 +24,4 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-# mypagina
+# Proyecto en desarrollo
