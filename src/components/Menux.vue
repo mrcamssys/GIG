@@ -23,7 +23,7 @@
             @click="
               nuevaruta(
                 'https://guatiquia.000webhostapp.com/vercion2'
-              )
+              )"
           >
            Institucional
           </b-nav-item>
@@ -32,7 +32,7 @@
             @click="
               nuevaruta(
                 'https://guatiquia.000webhostapp.com/vercion2/wp-admin/'
-              )
+              )"
           >
            Administrativo
           </b-nav-item>
