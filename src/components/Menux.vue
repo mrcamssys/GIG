@@ -20,13 +20,19 @@
           </b-nav-item>
            <b-nav-item
             font-scale="6"
-            to="https://guatiquia.000webhostapp.com/vercion2/"
+            @click="
+              nuevaruta(
+                'https://guatiquia.000webhostapp.com/vercion2'
+              )
           >
            Institucional
           </b-nav-item>
           <b-nav-item
             font-scale="6"
-            to="https://guatiquia.000webhostapp.com/vercion2/wp-admin/"
+            @click="
+              nuevaruta(
+                'https://guatiquia.000webhostapp.com/vercion2/wp-admin/'
+              )
           >
            Administrativo
           </b-nav-item>
