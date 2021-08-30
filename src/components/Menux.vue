@@ -18,24 +18,12 @@
           >
             {{ item }}
           </b-nav-item>
-           <b-nav-item
-            font-scale="6"
-            @click="
-              nuevaruta(
-                'https://guatiquia.000webhostapp.com/vercion2'
-              )"
-          >
-           Institucional
-          </b-nav-item>
-          <b-nav-item
-            font-scale="6"
-            @click="
-              nuevaruta(
-                'https://guatiquia.000webhostapp.com/vercion2/wp-admin/'
-              )"
-          >
-           Administrativo
-          </b-nav-item>
+          
+          
+          <b-nav-item font-scale="6" href="https://guatiquia.000webhostapp.com/vercion2">Block Institucional</b-nav-item>
+          
+          <b-nav-item font-scale="6" href="https://guatiquia.000webhostapp.com/vercion2/wp-admin/">Herramientas</b-nav-item>
+           
         </b-navbar-nav>
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
