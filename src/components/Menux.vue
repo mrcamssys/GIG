@@ -18,6 +18,18 @@
           >
             {{ item }}
           </b-nav-item>
+           <b-nav-item
+            font-scale="6"
+            to="https://guatiquia.000webhostapp.com/vercion2/"
+          >
+           Institucional
+          </b-nav-item>
+          <b-nav-item
+            font-scale="6"
+            to="https://guatiquia.000webhostapp.com/vercion2/wp-admin/"
+          >
+           Administrativo
+          </b-nav-item>
         </b-navbar-nav>
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
@@ -66,7 +78,6 @@ export default {
         menom: [
           "El Colegio",
           "Areas del Saber",
-          "Sedes",
         ],
         menruta: [
           "/colegio", 
