@@ -9,7 +9,7 @@
         <b-card-body>
           <b-card-text>
             <b-img src="/fondos/admin2022.png" fluid alt="Fluid image"></b-img>
-            <b-button href="https://drive.google.com/file/d/1yyVh1hDRwyvy5Ui-dSNtmAw2OvUOTMNX/view?usp=sharing" variant="primary">Ver Instructivo</b-button>
+            <b-button href="https://drive.google.com/file/d/1yyVh1hDRwyvy5Ui-dSNtmAw2OvUOTMNX/view?usp=sharing" size="lg" block variant="warning">Ver prospecto...</b-button>
           </b-card-text>
         </b-card-body>
          
