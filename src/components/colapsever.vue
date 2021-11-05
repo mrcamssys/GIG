@@ -8,9 +8,10 @@
       <b-collapse id="accordion-1" visible accordion="my-accordion" role="tabpanel">
         <b-card-body>
           <b-card-text>
-            
+            <b-img src="/fondos/admin2022.png" fluid alt="Fluid image"></b-img>
           </b-card-text>
         </b-card-body>
+         <b-button href="#" variant="primary">Ver Instructivo</b-button>
       </b-collapse>
     </b-card>
 <!--
