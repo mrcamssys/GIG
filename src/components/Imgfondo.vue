@@ -9,9 +9,9 @@
         img-width="100%"
         img-height="100%"
       >
-        <b-carousel-slide img-src="/fondos/base1.jpg"></b-carousel-slide>
-        <b-carousel-slide img-src="/fondos/base2.jpg"></b-carousel-slide>
-        <b-carousel-slide img-src="/fondos/fondo.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="https://guatiquia.000webhostapp.com/version2/wp-content/uploads/2022/03/base1.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="https://guatiquia.000webhostapp.com/version2/wp-content/uploads/2022/03/base2.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="https://guatiquia.000webhostapp.com/version2/wp-content/uploads/2022/03/base3.jpg"></b-carousel-slide>
       </b-carousel>
     </div>
   </div>
