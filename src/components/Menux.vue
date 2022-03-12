@@ -20,9 +20,9 @@
           </b-nav-item>
           
           
-          <b-nav-item font-scale="6" href="https://guatiquia.000webhostapp.com/vercion2">Block Institucional</b-nav-item>
+          <b-nav-item font-scale="6" href="https://guatiquia.000webhostapp.com/version2">Block Institucional</b-nav-item>
           
-          <b-nav-item font-scale="6" href="https://guatiquia.000webhostapp.com/vercion2/wp-admin/">Herramientas</b-nav-item>
+          <b-nav-item font-scale="6" href="https://guatiquia.000webhostapp.com/version2/wp-admin/">Herramientas</b-nav-item>
            
         </b-navbar-nav>
         <!-- Right aligned nav items -->
