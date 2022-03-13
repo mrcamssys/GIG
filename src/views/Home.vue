@@ -5,7 +5,7 @@
     
       <b-row>
         <b-col md="3">
-            <colapsever />          
+            <colapsever /> 
         </b-col>
         <b-col md="4"> </b-col>
         <b-col md="5">
@@ -30,21 +30,23 @@
             >
           </b-card>
             </div> -->
-                        
-             <b-card img-src="" img-alt="Card image" img-top>     
+            <div class="dataport">      
+            <b-card img-src=""  img-alt="Card image" img-top>     
                 <b-card-header header-tag="header" class="p-1" role="tab" end>
                   <b-button block v-b-toggle.accordion-2 variant="success"><b-icon icon="inbox-fill"></b-icon>
                   Videos Institucuonales</b-button>
                 </b-card-header>    
               <b-card-text>
-                
-                <iframe width="100%"  src="https://www.youtube.com/embed/w8KBJ3oNG_4?list=UUA-uViVcw5eRX70yLo1EgUw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                
+            
+                <!-- <iframe width="100%"  src="https://www.youtube.com/list=UUA-uViVcw5eRX70yLo1EgUw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                <iframe src="https://www.youtube.com/embed/videoseries?list=UUA-uViVcw5eRX70yLo1EgUw" width="560" height="315" frameborder="0" allow="autoplay"></iframe>
                  El colegio Gimnasio Integral Guatiquia ofrece a la comunidad una
                 educación solida basada en principios y valores éticos, morales
                 y culturales.
               </b-card-text>
-            </b-card><br /><br /><br /><br />
+            </b-card>
+            </div>
+            <br /><br /><br /><br />
 
           </div>
         </b-col>
@@ -71,4 +73,11 @@ export default {
   }
 };
 </script>
-<style scoped></style>
+<style scoped>
+.dataport{
+  position:absolute !important;
+  width: 600px !important; 
+  height: 315px !important;
+  right: 10px;
+}
+</style>

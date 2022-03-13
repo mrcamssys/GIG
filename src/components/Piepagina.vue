@@ -71,6 +71,7 @@ export default {
   name: "FooterPage",
   data(){
     return{
+      rutas:{},
       imgiconos:[
         'https://phet.colorado.edu/images/phet-social-media-logo.png',
         'https://www.tinkercad.com/img/favicon.ico',
@@ -90,7 +91,8 @@ export default {
     mdbContainer,
     mdbRow,
     mdbCol
-  }
+  },
+  
 };
 </script>
 

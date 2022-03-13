@@ -3,7 +3,7 @@
     <b-row>
         <b-col md="2">
           <b-list-group>
-              <b-list-group-item v-for="contenido in vinculos">{{contenido.nombre}}</b-list-group-item>
+              <b-list-group-item v-for="contenido in vinculos" >{{contenido.nombre}}</b-list-group-item>
           </b-list-group>      
         </b-col>
         <b-col md="10">
