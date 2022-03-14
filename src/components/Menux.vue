@@ -20,7 +20,7 @@
           </b-nav-item>
           
           
-          <b-nav-item font-scale="6" href="https://gimnasioguiatiquia.000webhostapp.com/?page_id=3">Block Institucional</b-nav-item>
+          <b-nav-item font-scale="6" href="https://gimnasioguiatiquia.000webhostapp.com/">Block Institucional</b-nav-item>
           
           <b-nav-item font-scale="6" href="https://gimnasioguiatiquia.000webhostapp.com/wp-admin/">Herramientas</b-nav-item>
            
