@@ -76,7 +76,7 @@ export default {
     methods:{
       async admision(){
         try{  
-          const data = await fetch('https://guatiquia.000webhostapp.com/version2/wp-json/wp/v2/posts?search=%22admision%22&order=desc');
+          const data = await fetch('https://guatiquia.000webhostapp.com/wp-json/wp/v2/posts?search="Admision"');
           this.dato=await data.json();
           this.dato=await this.dato[0];
           this.datoimg= await this.dato._links["wp:featuredmedia"][0].href;
@@ -102,7 +102,7 @@ export default {
 
     async comunicados(){
         try{  
-          const data = await fetch('https://guatiquia.000webhostapp.com/version2/wp-json/wp/v2/posts?search=%22comunicado%22&order=desc');
+          const data = await fetch('https://guatiquia.000webhostapp.com/wp-json/wp/v2/posts?search="comunicado"');
           this.datocom=await data.json();
           this.datocom=await this.datocom[0];
           this.datoimgcom= await this.datocom._links["wp:featuredmedia"][0].href;
