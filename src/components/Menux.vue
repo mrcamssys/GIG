@@ -56,6 +56,13 @@
               )
             " class="y3"><b-icon icon="mailbox" font-scale="1"></b-icon>office365</b-btn>
 
+            <b-btn @click="
+              nuevaruta(
+                'https://www.avalpaycenter.com/wps/portal/portal-de-pagos/web/banco-avvillas/resultado-busqueda/realizar-pago?idConv=00016382&origen=buscar'
+              )
+            " class="y2"><b-icon icon="paypal" font-scale="1"></b-icon>Pago PSE</b-btn>
+            
+            
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
