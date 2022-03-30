@@ -5,11 +5,13 @@
         <mdb-row>
           <mdb-col md="12">
             <div>
-               <a v-for="(imgs, id) in imgiconos" :key="id"  @href="imgrutas[id]" target="_blank">
+              <template v-for="(imgs, id) in imgiconos" >
+               <a :key="id"  :href="imgrutas[id]" target="_blank">
                 <b-img class="iconos"  rounded="0" :src="imgs" ></b-img>
                </a>
+              </template>
                <a href="https://www.educacionbogota.edu.co/portal_institucional/servicio-ciudadania2" target="_blank">
-                <b-img height="80px"  rounded="0" src="https://www.culturarecreacionydeporte.gov.co/sites/default/files/adjuntos_paginas_2014/logo_bogota_png_byn_rojo-01.png" ></b-img>
+                <b-img height="90px"  class="iconos" rounded="0" src="https://www.culturarecreacionydeporte.gov.co/sites/default/files/adjuntos_paginas_2014/logo_bogota_png_byn_rojo-01.png" ></b-img>
                </a>
             </div>
           </mdb-col>
@@ -25,7 +27,7 @@
               <b-icon icon="geo-alt-fill"></b-icon>
               Cll 59A Sur N° 45d-02/08<br />
               <b-icon icon="telephone-outbound-fill"></b-icon>
-              Telefono: 715 18 27<br>
+              Telefono: (601)-7151827<br>
               <b-icon icon="clock"></b-icon>
               Lunes a Viernes 6:30AM a 2:00PM<br>
             </p>
@@ -124,13 +126,13 @@ export default {
 }
 
 .iconos{
-  padding: 10px;
-  height: 70px;
-  filter: grayscale(80%);
+  padding: 15px;
+  height: 80px;
+  filter: grayscale(95%);
 }
 .iconos:hover{
-  padding: 10px;
-  height: 80px;
+  padding: 15px;
+  height: 100px;
   filter: grayscale(0%);
 }
 
