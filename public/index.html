@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="">
+<html>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -34,14 +34,16 @@
 });
 </script>
     <title>Gimnasio Integral Guatiquia</title>
+    <!-- <title><%= htmlWebpackPlugin.options.title %></title> -->
   </head>
   <body>
     <noscript>
-      <strong>al parecer no esta configurado adecuadamente vuestro navegador</strong>
+      <strong><h1><%= htmlWebpackPlugin.options.title %> </h1></h1>al parecer no esta configurado adecuadamente vuestro navegador o su ordenador no esta actualizado con los recursos para usar estas funciones </strong>
     </noscript>
     <div id="app">
       
     </div>
+    <script src="<%= BASE_URL %>assets/js/core.js"></script>
     <!-- built files will be auto injected -->
   </body>
 </html>

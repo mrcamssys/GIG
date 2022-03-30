@@ -28,28 +28,28 @@ const routes = [
   {
     path: "/sedes",
     name: "sedes",
+    meta: { title: "sedes", requiresAuth: false },
     component: () => import("../views/Sedes.vue")
   },
-  {
-    path: "/nadmisiones",
-    name: "admisiones",
-    component: () => import("../views/Nadmisiones.vue")
-  },
-  {
-    path: "/contactos",
-    name: "admisiones",
-    component: () => import("../views/Contactos.vue")
-  },
+
+
   {
     path: "/plataformas",
     name: "plataformas",
+    meta: { title: "Saberes", requiresAuth: false },
     component: () => import("../views/Plataformas.vue")
   },
   {
-    path: "/Usuarios",
-    name: "Usuarios",
-    component: () => import("../views/Usuarios.vue")
-  }
+    path: "/blockinstitucional",
+    name: "block GIG",
+    component: () => import("../views/pagovirtual.vue")
+  },
+  {
+    path: "/blockinstitucional/:url",
+    name: "block GIG url",
+    component: () => import("../views/pagovirtual.vue")
+  },
+
 ];
 
 const router = new VueRouter({

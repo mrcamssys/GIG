@@ -65,7 +65,7 @@ export default {
 .fondo {
   position: fixed;
   background-image: url("/fondos/fondo.jpeg");
-  background-size: 100% 100%;
+  background-size: auto 100%;
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;

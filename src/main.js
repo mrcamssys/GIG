@@ -9,6 +9,9 @@ import '../node_modules/timeline-vuejs/dist/timeline-vuejs.css';
 
 Vue.config.productionTip = false;
 
+
+
+
 new Vue({
   router,
   store,

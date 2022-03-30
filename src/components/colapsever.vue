@@ -79,13 +79,17 @@
       controls
       indicators
       background="#FFFFFF"
-      style="text-shadow: 1px 1px 2px #333; height:700px;"
+      style="text-shadow: 1px 1px 2px #333;"
     >
     <template img-blank v-for="(datax,id) in informacion" v-bind="id">
       <b-carousel-slide  :img-src="datax.urlimg"  :key="id">         
             <!-- <div v-html="datax.html"></div> -->
             <!-- <b-img :src="datax.urlimg" fluid alt="Fluid image"></b-img> -->
-          <b-button :href="datax.urldata" size="lg" block variant="warning"> <div v-html="datax.html"></div> </b-button>
+          <!-- <b-button :href="'/blockinstitucional/'+datax.separador" size="sm" block variant="success" v-html="">  </b-button> -->
+         
+          <router-link tag="a" :to="'/blockinstitucional/'+datax.separador" class="btn btn-success lg" title="nuevo Plan de Acción">
+					<i class=""></i><div v-html="datax.html"></div></router-link> 
+
       </b-carousel-slide>
     </template>
     </b-carousel>
@@ -117,8 +121,7 @@
 export default {
     data() {
       return {
-
-        informacion:[{titulo:"Informacion",html:"<h2>Sin informacion</h2>",urlimg:"fondos/plataformas.jpeg",urldata:"https://gimnasioguatiquia.edu.co/"}],
+        informacion:[{titulo:"Informacion",html:"<h2>Sin informacion</h2>",urlimg:"fondos/plataformas.jpeg",urldata:""}],
         dato:{},
         datoimg:{},
         datoepimg:{},
@@ -147,19 +150,21 @@ export default {
           const data = await fetch('https://gimnasioguiatiquia.000webhostapp.com/wp-json/wp/v2/posts?order=desc');
           datosEP=await data.json();
           console.warn("admision datos",datosEP);
-          if(datosEP.length<3){
+          if(datosEP.length<4){
               cant=datosEP.length;
           }else{
-            cant=3;
+            cant=4;
           }
           
           
           for(i=0; i<cant; i++){
               datoespecifico = await datosEP[i];
               urlimgdata = await datoespecifico._links["wp:featuredmedia"][0].href
+              let urldata= await datoespecifico.guid.rendered.split("?"),
               objeto={
                 html: await datoespecifico.excerpt.rendered,
-                urldata: await datoespecifico.guid.rendered,
+                
+                separador: urldata[1],
                 titulo:"Informacion",
                 urlimg: await this.loadimage(urlimgdata),
               };
@@ -207,5 +212,8 @@ export default {
 </script>
 
 <style>
-
+.accordion{
+  position: none !important;
+  height: 100% !important;
+}
 </style>

@@ -75,7 +75,7 @@ export default {
       imgiconos:[
         'https://phet.colorado.edu/images/phet-social-media-logo.png',
         'https://www.tinkercad.com/img/favicon.ico',
-        "https://pbs.twimg.com/profile_images/1334165539388788737/CpQQmutj.jpg",
+        "https://www.biblored.gov.co/sites/default/files/Logo-BibloRed.png",
         "https://www.valoraanalitik.com/wp-content/uploads/2019/11/MIN-TIC.png"
         ],
       imgrutas:[
@@ -125,13 +125,13 @@ export default {
   filter: grayscale(0%);
 }
 
-.iconoscontenido{
-  position:absolute;
-  left: 4%;
-  z-index: -5; 
-  width:650px; 
-  background-color: #fff; 
-  opacity: 1;
+
+.page-footer{
+    position: absolute;
+    margin-bottom: 0;
+    width:100% !important;
+    background-color:rgb(221, 221, 221) !important;
+    z-index: -15 !important;
 }
 
 @media (max-width: 990px), handheld and (orientation: landscape){  

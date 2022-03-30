@@ -70,33 +70,33 @@ export default {
       }
     },
   mounted(){
-    this.admision();
+    // this.admision();
     this.comunicados();
   },
     methods:{
-      async admision(){
-        try{  
-          const data = await fetch('https://gimnasioguiatiquia.000webhostapp.com/wp-json/wp/v2/posts?search="Admision"');
-          this.dato=await data.json();
-          this.dato=await this.dato[0];
-          this.datoimg= await this.dato._links["wp:featuredmedia"][0].href;
-          await this.loadimage();
-          console.warn("admision datosimagen",this.datoimg);
-          console.warn("admision datos",this.dato);
-        }catch(e){
-          console.warn("Error",e)
-        };
-      },
-      async loadimage(){
-        try{  
-          const data = await fetch(this.datoimg);
-          this.datoepimg=await data.json();
-          this.datoepimg=await this.datoepimg.guid.rendered;
-          console.warn("admision imagenes",this.datoepimg);
-        }catch(e){
-          console.warn("Error",e)
-        };
-      },
+      // async admision(){
+      //   try{  
+      //     const data = await fetch('https://gimnasioguiatiquia.000webhostapp.com/wp-json/wp/v2/posts?search="Admision"');
+      //     this.dato=await data.json();
+      //     this.dato=await this.dato[0];
+      //     this.datoimg= await this.dato._links["wp:featuredmedia"][0].href;
+      //     await this.loadimage();
+      //     console.warn("admision datosimagen",this.datoimg);
+      //     console.warn("admision datos",this.dato);
+      //   }catch(e){
+      //     console.warn("Error",e)
+      //   };
+      // },
+      // async loadimage(){
+      //   try{  
+      //     const data = await fetch(this.datoimg);
+      //     this.datoepimg=await data.json();
+      //     this.datoepimg=await this.datoepimg.guid.rendered;
+      //     console.warn("admision imagenes",this.datoepimg);
+      //   }catch(e){
+      //     console.warn("Error",e)
+      //   };
+      // },
 
 
 

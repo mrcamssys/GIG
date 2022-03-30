@@ -20,9 +20,10 @@
           </b-nav-item>
           
           
-          <b-nav-item font-scale="6" href="https://gimnasioguiatiquia.000webhostapp.com/">Block Institucional</b-nav-item>
+          <b-nav-item font-scale="6" href="/blockinstitucional">Block Institucional</b-nav-item>
           
           <b-nav-item font-scale="6" href="https://gimnasioguiatiquia.000webhostapp.com/wp-admin/">Herramientas</b-nav-item>
+          <b-nav-item font-scale="6" href="https://mail.office365.com">Correo Institucional</b-nav-item>
            
         </b-navbar-nav>
         <!-- Right aligned nav items -->
@@ -50,19 +51,22 @@
               )
             " class="y2"><b-icon icon="camera" font-scale="1"></b-icon> Educar Norma</b-btn>
 
-            <b-btn @click="
+            <!-- <b-btn @click="
               nuevaruta(
                 'https://mail.office365.com'
               )
-            " class="y3"><b-icon icon="mailbox" font-scale="1"></b-icon>office365</b-btn>
+            " class="y3"><b-icon icon="mailbox" font-scale="1"></b-icon>office365</b-btn> -->
 
             <b-btn @click="
               nuevaruta(
                 'https://www.avalpaycenter.com/wps/portal/portal-de-pagos/web/banco-avvillas/resultado-busqueda/realizar-pago?idConv=00016382&origen=buscar'
               )
-            " class="y2"><b-icon icon="paypal" font-scale="1"></b-icon>Pago PSE</b-btn>
+            " class="btn-pagovirtual"><b-icon icon="credit-card" font-scale="1"></b-icon> Pago Virual</b-btn>
             
-            
+            <!-- <b-btn to="/pagovirtual" class="btn-pagovirtual"
+            ><b-icon icon="credit-card" font-scale="1"></b-icon> Pago Virual</b-btn> -->
+
+
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
@@ -118,6 +122,19 @@ export default {
   background-color: rgba(60, 114, 175, 0.7);
   margin: 0px;
   border: 5px solid #eee;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+}
+
+.btn-pagovirtual {
+  background-color: rgba(61, 9, 109, 0.7);
+  margin: 3px;
+}
+.btn-pagovirtual:hover {
+  background-color: rgba(60, 114, 175, 0.7);
+  margin: 0px;
+  border: 6px solid #eee;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;

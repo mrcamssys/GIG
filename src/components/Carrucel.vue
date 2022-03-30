@@ -4,8 +4,8 @@
     style="text-shadow: 0px 0px 2px #000"
     fade
     indicators
-    img-width="1024"
-    img-height="480"
+    img-width="100%"
+    img-height="100%"
   >
     <b-carousel-slide
       caption="First slide"
