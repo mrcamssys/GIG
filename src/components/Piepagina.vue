@@ -43,7 +43,7 @@
           <mdb-col md="4"><br>
             <p>
               <div style="display:inline; text-align: left;">
-              <img height="60px" style="filter: grayscale(100%); display:inline; text-align: left; padding: 4px;" src="logos/loder.png" />
+              <img height="60px" style="filter: grayscale(100%); display:inline; text-align: left; padding: 4px;" :src="baseUrl()+'logos/loder.png'" />
               <p style="text-align: left; display:inline;"> 
               <b>Representante legal:</b><br>
               Rectora: Lic. Rubiela Angel Galvis.<br></p>
@@ -92,6 +92,15 @@ export default {
     mdbRow,
     mdbCol
   },
+  methods: {
+    baseUrl() {
+			return process.env.BASE_URL;
+		},
+
+    nuevaruta(ruta) {
+      window.open(ruta, "_blank");
+    }
+  }
   
 };
 </script>
