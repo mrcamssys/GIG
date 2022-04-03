@@ -44,6 +44,7 @@
           
           <b-btn to="/plataformas" class="btn-presentacion"
             ><b-icon icon="camera" font-scale="1"></b-icon> Saberes</b-btn>
+            
           
           <b-btn @click="
               nuevaruta(
@@ -51,11 +52,11 @@
               )
             " class="y2"><b-icon icon="camera" font-scale="1"></b-icon> Educar Norma</b-btn>
 
-            <!-- <b-btn @click="
+            <b-btn @click="
               nuevaruta(
-                'https://mail.office365.com'
+                'https://api.whatsapp.com/send?phone=573192098659&app=facebook&entry_point=page_cta&fbclid=IwAR3_JrkhZ3_PrRMcdBkXuKZ4cWh1PKDE2LEnfVQj82pzyS0C6oRpdlU0rIU'
               )
-            " class="y3"><b-icon icon="mailbox" font-scale="1"></b-icon>office365</b-btn> -->
+            " class="btn-presentacion">Whatsapp</b-btn>
 
             <b-btn @click="
               nuevaruta(

@@ -7,7 +7,7 @@
         <a href="https://www.facebook.com/gimnasioguatiquia.edu.co" class="icon icon-facebook" target="_blank"></a>
         <a href="https://twitter.com/GGuatiquia" class="icon icon-twitter" target="_blank"></a>
         <a href="https://www.youtube.com/channel/UCA-uViVcw5eRX70yLo1EgUw" class="icon icon-youtube" target="_blank"></a>
-        <!-- <a href="https://www.instagram.com/devcodela/" class="icon icon-instagram" target="_blank"></a> -->
+        <!-- <a href="https://api.whatsapp.com/send?phone=573192098659&app=facebook&entry_point=page_cta&fbclid=IwAR3_JrkhZ3_PrRMcdBkXuKZ4cWh1PKDE2LEnfVQj82pzyS0C6oRpdlU0rIU" class="icon icon-whatsapp" target="_blank">Whatsapp</a>  -->
       </div>
       <router-view />
     </b-container>
