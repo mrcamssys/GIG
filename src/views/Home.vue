@@ -62,7 +62,8 @@ export default {
   mounted(){
     this.imagenportada();
     this.ancho=document.documentElement.scrollWidth;
-    if(this.ancho>=1000) this.altopage=document.documentElement.scrollHeight-610;
+    if(this.ancho>=990) this.altopage=document.documentElement.scrollHeight-610;
+    else this.altopage=0;
     this.$refs.altofondo.style.height =  this.altopage+"px";
     console.warn("alto pagina",this.altopage);
     console.warn("ancho pagina",this.ancho);
