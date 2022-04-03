@@ -1,6 +1,7 @@
 <template>
-  <mdb-footer class="page-footer font-small pt-4 mt-4 ">
-      <mdb-container class="text-left" style="">
+  <mdb-footer class="page-footer font-small ">
+    
+    <mdb-container class="text-left" style="">
         <div class="iconoscontenido"></div>
         <mdb-row>
           <mdb-col md="12">
@@ -17,53 +18,110 @@
           </mdb-col>
         </mdb-row>
       </mdb-container>
-      
-    <div class="stylish">
-      <div class="divfondo">
-      <mdb-container class="text-left">
-        <mdb-row>
-          <mdb-col md="4">
-            <p><hr>
-              <b-icon icon="geo-alt-fill"></b-icon>
-              Cll 59A Sur N° 45d-02/08<br />
-              <b-icon icon="telephone-outbound-fill"></b-icon>
-              Telefono: (601)-7151827<br>
-              <b-icon icon="clock"></b-icon>
-              Lunes a Viernes 6:30AM a 2:00PM<br>
-            </p>
-          </mdb-col>
-          <mdb-col md="4">
-            <p>
-              <hr>
-              <b>Comunicacion Secretaria:</b><br>
-              Email: <div style="overflow-x: scroll;"><a href="smb://soporteadministrativo@gimnasioguatiquia.edu.co">soporteadministrativo@gimnasioguatiquia.edu.co</a></div><br>
-              Celular: +57 319 209 86 59
-              <br>
-            </p>
-            
-          </mdb-col>
-          <mdb-col md="4"><br>
-            <p>
-              <div style="display:inline; text-align: left;">
-              <img height="60px" style="filter: grayscale(100%); display:inline; text-align: left; padding: 4px;" :src="baseUrl()+'logos/loder.png'" />
-              <p style="text-align: left; display:inline;"> 
-              <b>Representante legal:</b><br>
-              Rectora: Lic. Rubiela Angel Galvis.<br></p>
 
-              </div>
-            </p>
-          </mdb-col>
-        </mdb-row>
-      </mdb-container>
+<div class="text-white" style="background-color: rgba(0, 0, 0, 0.9);">
+  <!-- Grid container -->
+  <div class="container">
 
-      <hr />
-      <div class="footer-copyright text-center py-3 data1">
-        <mdb-container fluid>
-          &copy; 2021 Copyright: Colegio Gimnasio Integral Guatiquia.
-          Desarrollo: Lic. Carlos A. Moreno S.
-        </mdb-container></div>
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <!-- <h5 class="text-uppercase">Links</h5> -->
+
+          <h3><b-icon icon="base" font-scale="1"></b-icon> Contacto:</h3>
+          - Fijo : (601)7151827 <br>
+          - Movil : 3192098659 <hr>
+          <h5>Direcciones :</h5>
+          <ul class="list-unstyled mb-0 mr-1">
+            <li>* Sede principal A. Calle 59 A sur No. 45 D -02/08  Bogotá D.C.</li>
+            <li>* Sede B. Calle 59 A sur No. 46 – 27. </li>
+            <li>* Sede C. Carrera 47 No 59 A – 18 sur.</li>
+          </ul>
+          
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h3><b-icon icon="e942" font-scale="1"></b-icon> Servicios:</h3>
+La institución presta unos servicios extracurriculares aprovechando el tiempo libre de los estudiantes como lo son:
+          <ul class="list-unstyled mb-0">
+            <li> * Artes (música).</li>
+            <li>* Deporte (Artes marciales – Hapkido).</li>
+            <li>* Idioma Extrangero (ingles).</li>
+            <li>* Gimnasia.</li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h3><b-icon icon="e942" font-scale="1"></b-icon>Bienestar Institucional: </h3>
+
+Pensando en el bienestar de toda la comunidad, nuestra institución presta los servicios de :
+
+          <ul class="list-unstyled mb-0">
+            <li>* Psico - orientación.</li>
+            <li>* Fonoaudiología </li>
+            <li>* Biblioteca</li>
+            <li>* Escuela de padres</li>
+            <li>* Tienda escolar</li>
+            <li>* Sala de informática</li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h3>Mapa Ubicación:</h3>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7954.199772910398!2d-74.152585!3d4.576077!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x77a1ed68f6298897!2sGimnasio%20Integral%20Guatiquia!5e0!3m2!1ses-419!2sco!4v1648965460672!5m2!1ses-419!2sco" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+        <!--Grid column-->
       </div>
-    </div> 
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    <div class="container">
+      <section class="">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <small>
+            <b>Secretaria General:</b><br>
+              <a href="smb://soporteadministrativo@gimnasioguatiquia.edu.co">soporteadministrativo@gimnasioguatiquia.edu.co</a><br>
+              horario Atención: 6:30 AM a 2:20PM -- lunes a viernes.<br>
+            </small>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0"> 
+            <small>
+              <b>© Copyright: Gimnasio Integral Guatiquia 2022.</b><br>
+              Desarrollo: Lic. Carlos A. Moreno S. <br>
+              informacion:<a href="https://www.linkedin.com/in/carlos-arturo-moreno-susatama-36069955">Linkedin Contacto</a>
+            </small>
+          </div>
+          
+          <div class="contenedor-imagenes col-lg-4 col-md-6 mb-4 mb-md-0">
+            <img  :src="baseUrl()+'logos/loder.png'" class="logo" style="width: 90px;"/> 
+            <img :src="baseUrl()+'logos/minedu.png'" class="logo"/>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <!-- Copyright -->
+</div>
+<!-- Footer -->
+
   </mdb-footer>
 </template>
 
@@ -108,7 +166,7 @@ export default {
 </script>
 
 <style scoped>
-.divfondo{
+/* .divfondo{
   background-image: url('https://i.pinimg.com/originals/ce/10/5f/ce105fda85be60e90b3fec3a1a43b799.jpg') !important;
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -123,7 +181,7 @@ export default {
 .data1 {
   background-color: rgb(26, 26, 27) !important;
   color: darkgray;
-}
+} */
 
 .iconos{
   padding: 15px;
@@ -145,7 +203,15 @@ export default {
     z-index: -15 !important;
 }
 
-@media (max-width: 990px), handheld and (orientation: landscape){  
+.contenedor-imagenes {
+  display: flex;
+}
+
+.contenedor-imagenes img:first-child {
+  margin-right: 10px;
+}
+
+/* @media (max-width: 990px), handheld and (orientation: landscape){  
   .divfondo{
     background-image: url('https://i.pinimg.com/originals/ce/10/5f/ce105fda85be60e90b3fec3a1a43b799.jpg') !important;
     background-repeat: no-repeat;
@@ -164,26 +230,6 @@ export default {
     opacity: 1;
   }
   
-}
+} */
 
 </style>
-
-
-          <!-- <mdb-col md="6">
-            <h5 class="text-uppercase mb-4 mt-3 font-weight-bold">
-              Nuestra Institucion
-            </h5>
-            <hr>
-            <p>
-              Hacer parte de la comunidad educativa Guatiquia, implica disfrutar
-              y poner en práctica los derechos y deberes que buscan el
-              fortalecimiento de la autoestima y la autorregulación, basados en
-              el respeto, la autonomía, la sana convivencia y el bienestar
-              individual y colectivo; para que nuestro niños, niñas y jóvenes
-              reflejen desde la cotidianidad su identidad con la institución
-              educativa, en donde el eje central es el ser humano integral como
-              agente de cambio y transformador de su entorno.
-            </p>
-
-            
-          </mdb-col> -->

@@ -7,7 +7,7 @@
         <b-col md="3">
              <colapsever />  
         </b-col>
-        <b-col md="6"><div class="data"></div> </b-col>
+        <b-col md="6"><div ref="altofondo" class="data"></div> </b-col>
         <b-col md="3">
           <div>
 
@@ -51,13 +51,44 @@ export default {
     //  Carrucel,
     Imgfondo,
     Colapsever
+  },
+  data(){
+    return{
+      altopage:null,
+      ancho:null,
+    }
+  },
+  
+  mounted(){
+    this.imagenportada();
+    this.ancho=document.documentElement.scrollWidth;
+    if(this.ancho>=1219) this.altopage=document.documentElement.scrollHeight-550;
+    this.$refs.altofondo.style.height =  this.altopage+"px";
+    console.warn("alto pagina",this.altopage);
+    console.warn("ancho pagina",this.ancho);
+  },
+
+  methods:{
+    async imagenportada(){
+      try{  
+        const data = await fetch('https://gimnasioguiatiquia.000webhostapp.com/wp-json/wp/v2/media/?order=desc&search=%22imgportada_%22');
+        this.rutas=await data.json();
+        console.warn("rutas",this.rutas);
+      }catch(e){
+        console.warn("Error",e)
+      };
+    },
+    positionFooter(){
+      
+    }
   }
+  
 };
 </script>
 <style scoped>
 .data{
   position: relative;
-  height: 600px;
+  height: 700px;
 }
 
 @media (max-width: 990px), handheld and (orientation: landscape){  
