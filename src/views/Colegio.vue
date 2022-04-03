@@ -1,34 +1,54 @@
 <template>
+
   <b-container fluid>
     <b-row>
         <b-col md="2">
           <b-list-group>
-              <b-list-group-item v-for="contenido in vinculos" >{{contenido.nombre}}</b-list-group-item>
+              <template  >
+                <b-list-group-item v-for="contenido of vinculos" :key="contenido">
+                  <router-link :to="contenido.rura" style="color:#000000;">{{contenido.nombre}}</router-link>
+                </b-list-group-item>
+              </template>
           </b-list-group>      
         </b-col>
+        
         <b-col md="10">
-          <Historia />
+          <historia v-if="$route.params.id==2"/>
+          <misionvision v-else-if="$route.params.id==1"/>
+          <valores v-else-if="$route.params.id==3"/>
+          <index v-else/>
+
         </b-col>
+
       </b-row>
   </b-container>
+
 </template>
 
 <script>
-import Historia from '../components/colegio/Historia.vue'
+import historia from './colegio/Historia.vue'
+import misionvision from './colegio/mision_vision.vue'
+import valores from './colegio/valores.vue'
+import index from './colegio/index.vue'
 export default {
-  components:{Historia},
+  components:{
+    historia,
+    index,
+    misionvision,
+    valores
+  },
   data(){
     return{
       vinculos:[
         {
-          nombre:"Historia Institucional",
-          rura:"#"
-        },{
           nombre:"Modelo (Objetivo, Misión, Visión)",
-          rura:"#"
+          rura:"/colegio/1"
         },{
-          nombre:"Filosofia y Horizonte",
-          rura:"#"
+          nombre:"Historia Institucional",
+          rura:"/colegio/2"
+        },{
+          nombre:"Valores Institucionales",
+          rura:"/colegio/3"
         },
       ]
     }
@@ -36,4 +56,10 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+.fondocolegio{
+  background-color: #F7F9F9;
+  width: 100%;
+  height: 100%;
+}
+</style>

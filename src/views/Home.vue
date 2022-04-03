@@ -1,8 +1,8 @@
 <template>
   <!-- <Carrucel/> -->
   <div>
-    <imgfondo />
-    
+    <imgfondo v-if="ancho>=880" />
+    <div class="fondo2" v-else></div>
       <b-row>
         <b-col md="3">
              <colapsever />  
@@ -60,13 +60,19 @@ export default {
   },
   
   mounted(){
+    console.clear();
     this.imagenportada();
     this.ancho=document.documentElement.scrollWidth;
-    if(this.ancho>=990) this.altopage=document.documentElement.scrollHeight-610;
+    let altopage=document.documentElement.scrollHeight;
+    // let altoimagenes=this.$refs.carrucelfondo.scrollHeight;
+    if(this.ancho>=1220) this.altopage=altopag-70;
+    if(this.ancho<1220 && this.ancho>=850) this.altopage-70;
+    // if(this.ancho>=990) this.altopage=document.documentElement.scrollHeight-610;
     else this.altopage=0;
-    this.$refs.altofondo.style.height =  this.altopage+"px";
+    this.$refs.altofondo.style.height = this.altopage+"px";
     console.warn("alto pagina",this.altopage);
     console.warn("ancho pagina",this.ancho);
+    console.warn("alto carrucel",altoimagenes);
   },
 
   methods:{
@@ -92,12 +98,26 @@ export default {
   height: 700px;
 }
 
+.fondo2 {
+  position: fixed;
+  background-image: url("/fondos/fondo.jpeg");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: -100;
+}
+
 @media (max-width: 990px), handheld and (orientation: landscape){  
 .data{
   position: relative;
   height: 0px;
 }
 }
+
+
 /* .dataport{
   width: 495px !important; 
   height: 205px !important;

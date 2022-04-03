@@ -8,6 +8,7 @@
         indicators
         img-width="100%"
         img-height="100%"
+        ref="carrucelfondo"
       >
         <!-- <b-carousel-slide img-src="https://gimnasioguiatiquia.000webhostapp.com/wp-content/uploads/2022/03/base1.jpg"></b-carousel-slide>
         <b-carousel-slide img-src="https://gimnasioguiatiquia.000webhostapp.com/wp-content/uploads/2022/03/base2.jpg"></b-carousel-slide>
@@ -64,7 +65,6 @@ export default {
 <style>
 .fondo {
   position: fixed;
-  background-image: url("/fondos/fondo.jpeg");
   background-size: auto 100%;
   background-repeat: no-repeat;
   width: 100%;
