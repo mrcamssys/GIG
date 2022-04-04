@@ -1,6 +1,6 @@
 <template>
   <div class="ingresox">
-<iframe ref="" width="100%" height="100%" :src="url" style="border:0px;"></iframe>
+  <iframe ref="" width="100%" height="100%" :src="url" style="border:0px;"></iframe>
   </div>
 </template>
 
@@ -10,7 +10,6 @@ export default {
   name: "plataformas",
   data() {
     return {
-
       url:"https://gimnasioguiatiquia.000webhostapp.com",
     };
   },
