@@ -2,7 +2,7 @@
 <div>
   <h1 class="titulo">Historia Institucional </h1>
      <div class="row">
-        <b-card v-for="(contenido, id) in dataTimeline" :bg-variant="contenido.estilo" :text-variant="contenido.color"  tag="article" style="max-width: 16rem; margin: 3px;"  class=" d-flex mb-2" deck>     
+        <!-- <b-card v-for="(contenido, id) in dataTimeline" :bg-variant="contenido.estilo" :text-variant="contenido.color"  tag="article" style="max-width: 16rem; margin: 3px;"  class=" d-flex mb-2" deck>     
             <b-card-header header-tag="header" class="p-1" role="tab" end>
               <h3>
               {{contenido.title}}</h3>
@@ -10,10 +10,10 @@
             <b-card-text>                
             {{contenido.description}}
             </b-card-text>
-        </b-card>
+        </b-card> -->
       </div>
     </div>
-</div>
+
 </template>
 
 <script>
