@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import historia from './colegio/historia.vue'
+import historia from './colegio/Historia.vue'
 import misionvision from './colegio/mision_vision.vue'
 import valores from './colegio/valores.vue'
 import index from './colegio/index.vue'
