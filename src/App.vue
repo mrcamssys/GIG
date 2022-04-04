@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <menux v-if="$route.params.id==null || $route.params.id==1"/>
-    <template v-if="$route.params.id==null">
+    <menux />
+    <template>
       <b-container fluid >
         <br />
         <div class="social-bar">
@@ -13,15 +13,25 @@
         <router-view />
       </b-container>
     </template>
-    <piepagina v-if="$route.params.id==null || $route.params.id==2" />
+    <piepagina/>
   </div>
 </template>
 
 <script>
+let root=this;
 import Menux from "./components/Menux.vue";
 import Piepagina from "./components/Piepagina.vue";
 export default {
-  components: { Menux, Piepagina }
+  components: { Menux, Piepagina },
+  data(){
+    return{
+      
+    }
+  },
+  
+  mounted(){
+    
+  },
 };
 </script>
 

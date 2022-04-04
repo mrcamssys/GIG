@@ -59,20 +59,20 @@ export default {
     }
   },
   
-  mounted(){
+  created(){
     console.clear();
     this.imagenportada();
-    this.ancho=document.documentElement.scrollWidth;
-    let altopage=document.documentElement.scrollHeight;
+    this.ancho=parseInt(document.documentElement.scrollWidth);
+    let altopag=parseInt(document.documentElement.scrollHeight);
     // let altoimagenes=this.$refs.carrucelfondo.scrollHeight;
-    if(this.ancho>=1220) this.altopage=altopag-70;
-    if(this.ancho<1220 && this.ancho>=850) this.altopage-70;
+    if(this.ancho>=1220) this.altopage=altopag;
+    if(this.ancho<1220 && this.ancho>=850) this.altopage=10;
     // if(this.ancho>=990) this.altopage=document.documentElement.scrollHeight-610;
     else this.altopage=0;
     this.$refs.altofondo.style.height = this.altopage+"px";
     console.warn("alto pagina",this.altopage);
     console.warn("ancho pagina",this.ancho);
-    console.warn("alto carrucel",altoimagenes);
+    // console.warn("alto carrucel",altoimagenes);
   },
 
   methods:{
