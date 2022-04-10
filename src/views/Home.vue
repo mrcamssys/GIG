@@ -5,6 +5,7 @@
     <div class="fondo2" v-else></div>
       <b-row>
         <b-col md="3">
+              
              <colapsever />  
         </b-col>
         <b-col md="6"><div ref="altofondo" class="data"></div> </b-col>

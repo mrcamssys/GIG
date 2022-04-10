@@ -1,5 +1,6 @@
 <template>
   <div class="fondo">
+    <b-overlay :show="show" rounded="sm">
     <div>
       <b-carousel
         id="carousel-fade"
@@ -31,6 +32,8 @@
         /> -->
         
     </div>
+
+    </b-overlay>
   </div>
 </template>
 
@@ -39,6 +42,7 @@ export default {
   name: "ImagenesFondo",
   data(){
     return{
+      show:true,
       rutas:[],
     }
   },
@@ -53,6 +57,7 @@ export default {
         const data = await fetch('https://gimnasioguiatiquia.000webhostapp.com/wp-json/wp/v2/media/?order=desc&search=%22imgportada_%22');
         this.rutas=await data.json();
         console.warn("rutas",this.rutas);
+        this.show=false;
       }catch(e){
         console.warn("Error",e)
       };
