@@ -1,5 +1,5 @@
 <template>
-  <div class="accordion" role="tablist">
+  <!-- <div class="accordion" role="tablist">
     <b-overlay :show="show" rounded="sm">
       <template>
         <b-card no-body class="mb-1">
@@ -14,7 +14,7 @@
             visible
             accordion="my-accordion"
             role="tabpanel"
-          >
+          > -->
             <b-carousel
               id="carousel-1"
               v-model="slide"
@@ -46,11 +46,11 @@
                 </b-carousel-slide>
               </template>
             </b-carousel>
-          </b-collapse>
+          <!-- </b-collapse>
         </b-card>
       </template>
     </b-overlay>
-  </div>
+  </div> -->
 </template>
 
 <script>

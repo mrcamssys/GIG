@@ -1,16 +1,17 @@
 <template>
   <!-- <Carrucel/> -->
   <div>
+    
     <imgfondo v-if="ancho>=880" />
     <div class="fondo2" v-else></div>
       <b-row>
         <b-col md="3">
-              
-             <colapsever />  
+              <colapsever /> 
+             <!-- <colapsever />   -->
         </b-col>
         <b-col md="6"><div ref="altofondo" class="data"></div> </b-col>
         <b-col md="3">
-          <div>
+          <!-- <div>
 
             <div class="dataport">      
             <b-card img-src=""  img-alt="Card image" img-top>     
@@ -20,7 +21,7 @@
                 </b-card-header>    
               <b-card-text>
             
-                <!-- <iframe width="100%"  src="https://www.youtube.com/list=UUA-uViVcw5eRX70yLo1EgUw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                < !-- <iframe width="100%"  src="https://www.youtube.com/list=UUA-uViVcw5eRX70yLo1EgUw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -- >
                 <iframe src="https://www.youtube.com/embed/videoseries?list=UUA-uViVcw5eRX70yLo1EgUw" width="100%" height="65%" frameborder="0" allow="autoplay"></iframe>
                  El colegio Gimnasio Integral Guatiquia ofrece a la comunidad una
                 educación solida basada en principios y valores éticos, morales
@@ -30,7 +31,7 @@
             </div>
             <br /><br /><br /><br />
 
-          </div>
+          </div> -->
         </b-col>
       </b-row>
       <!-- <div class="nombres" font-scale="8"><p><strong>Presentacion estudiantes grado segundo 2018</strong><br>Estudiantes Gimnasio Integral</p></div> -->
@@ -39,7 +40,8 @@
 </template>
 
 <script>
-import Colapsever from '../components/colapsever.vue';
+// import Colapsever from '../components/colapsever.vue';
+import Colapsever from '../components/informacion_pincipal.vue';
 import Imgfondo from "../components/Imgfondo.vue";
 //import Carrucel from '../components/Carrucel.vue';
 //import Carrucel from './components/Carrucel.vue';

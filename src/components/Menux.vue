@@ -43,20 +43,20 @@
             class="y1"><b-icon icon="youtube" font-scale="1"></b-icon></b-btn> -->
           
           <b-btn to="/plataformas" class="btn-presentacion"
-            ><b-icon icon="camera" font-scale="1"></b-icon> Saberes</b-btn>
+            ><span class="icon-books" aria-hidden="true"></span> Saberes</b-btn>
             
           
           <b-btn @click="
               nuevaruta(
                 'https://educaevoluciona.com/ingreso.html'
               )
-            " class="y2"><b-icon icon="camera" font-scale="1"></b-icon> Educar Norma</b-btn>
+            " class="y2"><span class="icon-calculator" aria-hidden="true"></span> Educar Norma</b-btn>
 
             <b-btn @click="
               nuevaruta(
                 'https://api.whatsapp.com/send?phone=573192098659&app=facebook&entry_point=page_cta&fbclid=IwAR3_JrkhZ3_PrRMcdBkXuKZ4cWh1PKDE2LEnfVQj82pzyS0C6oRpdlU0rIU'
               )
-            " class="btn-presentacion">Whatsapp</b-btn>
+            " class="btn-presentacion"><span class="icon-whatsapp" aria-hidden="true"></span> Whatsapp</b-btn>
 
             <b-btn @click="
               nuevaruta(
