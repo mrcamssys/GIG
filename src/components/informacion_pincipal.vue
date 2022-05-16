@@ -9,7 +9,7 @@
             </div>
             <b-card-text class="p-2">
             <!-- <iframe width="100%"  src="https://www.youtube.com/list=UUA-uViVcw5eRX70yLo1EgUw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-                <iframe src="https://www.youtube.com/embed/videoseries?list=UUA-uViVcw5eRX70yLo1EgUw" width="430px" height="240px" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/videoseries?list=UUA-uViVcw5eRX70yLo1EgUw" width="100%" height="240px" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
                 El colegio Gimnasio Integral Guatiquia ofrece a la comunidad una
                 educación solida basada en principios y valores éticos, morales
                 y culturales.
@@ -46,7 +46,7 @@ export default {
 .contenedorx{
     position: relative;
     height: 100%;
-    width: 450px;
+    width: 100%;
     left: 0px;
     background-color: rgba(99, 99, 90, 0.6);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
