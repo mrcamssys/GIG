@@ -106,13 +106,13 @@ Pensando en el bienestar de toda la comunidad, nuestra institución presta los s
             <small>
               <b>© Copyright: Gimnasio Integral Guatiquia 2022.</b><br>
               Desarrollo: Lic. Carlos A. Moreno S. <br>
-              informacion:<a href="https://www.linkedin.com/in/carlos-arturo-moreno-susatama-36069955">Linkedin Contacto</a>
+              informacion: <a href="https://www.linkedin.com/in/carlos-arturo-moreno-susatama-36069955" target="__blank">Linkedin Contacto</a>
             </small>
           </div>
           
           <div class="contenedor-imagenes col-lg-4 col-md-6 mb-4 mb-md-0">
             <img  :src="baseUrl()+'logos/loder.png'" class="logo" style="width: 90px;"/> 
-            <img :src="baseUrl()+'logos/minedu.png'" class="logo"/>
+            <img :src="baseUrl()+'logos/minedu.png'" />
           </div>
         </div>
       </section>

@@ -1,5 +1,6 @@
 <template>
-
+<div>
+  <div class="bodycap"></div>
   <b-container fluid>
     <b-row>
         <b-col md="2">
@@ -24,7 +25,7 @@
 
       </b-row>
   </b-container>
-
+</div>
 </template>
 
 <script>
@@ -75,17 +76,22 @@ export default {
 }
 </script>
 
-<style>
+<style lang="css" scoped>
+
 .fondocolegio{
   background-color: #F7F9F9;
   width: 100%;
   height: 100%;
 }
-body{
-  background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190221/ourmid/pngtree-school-season-student-start-school-supplies-discount-image_33785.jpg");
-  background-position-x: 0px;
-  background-position-y: 0px;
+.bodycap{
+  position:fixed;
+  z-index: -100;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../public/fondos/background.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% ;
+  left: 0px;
+  top: 0px;
 }
 </style>

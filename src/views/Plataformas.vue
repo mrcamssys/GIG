@@ -1,5 +1,6 @@
 <template>
   <div class="ingreso">
+    <div class="bodycap"></div>
     <h1>Bienvenido al sistema de Aulas Virtuales Plataforma Saberes</h1>
     <b-alert variant="warning" show
       >Recuerde que sus datos son personales e instranferibles</b-alert
@@ -106,4 +107,17 @@ export default {
 };
 </script>
 
-<style></style>
+<style lang="css" scoped>
+.bodycap{
+  position:fixed;
+  z-index: -100;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../public/fondos/background3.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% ;
+  left: 0px;
+  top: 0px;
+}
+</style>
+
