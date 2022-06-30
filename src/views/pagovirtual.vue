@@ -10,7 +10,7 @@ export default {
   name: "plataformas",
   data() {
     return {
-      url:"https://gimnasioguiatiquia.000webhostapp.com",
+      url:"http://gimnasioguatiquia.42web.io/",
     };
   },
   created: function() {
