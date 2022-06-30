@@ -81,7 +81,7 @@ export default {
   methods:{
     async imagenportada(){
       try{  
-        const data = await fetch('https://gimnasioguiatiquia.000webhostapp.com/wp-json/wp/v2/media/?order=desc&search=%22imgportada_%22');
+        const data = await fetch('http://gimnasioguatiquia.42web.io/wp-json/wp/v2/media/?order=desc&search=%22imgportada_%22');
         this.rutas=await data.json();
         console.warn("rutas",this.rutas);
       }catch(e){

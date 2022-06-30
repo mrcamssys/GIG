@@ -97,7 +97,7 @@ export default {
         cant = 0;
       try {
         const data = await fetch(
-          "https://gimnasioguiatiquia.000webhostapp.com/wp-json/wp/v2/posts?order=desc"
+          "http://gimnasioguatiquia.42web.io/wp-json/wp/v2/posts?order=desc"
         );
         datosEP = await data.json();
         console.warn("admision datos", datosEP);

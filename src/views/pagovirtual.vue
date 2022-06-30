@@ -16,7 +16,7 @@ export default {
   created: function() {
 		root = this;
     console.warn("ruta: ",root.$route.params)
-    if(root.$route.params.url!=null) root.url="https://gimnasioguiatiquia.000webhostapp.com/?"+root.$route.params.url;
+    if(root.$route.params.url!=null) root.url="http://gimnasioguatiquia.42web.io/?"+root.$route.params.url;
     
 	},
 

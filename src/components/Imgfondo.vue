@@ -11,9 +11,9 @@
         img-height="100%"
         ref="carrucelfondo"
       >
-        <!-- <b-carousel-slide img-src="https://gimnasioguiatiquia.000webhostapp.com/wp-content/uploads/2022/03/base1.jpg"></b-carousel-slide>
-        <b-carousel-slide img-src="https://gimnasioguiatiquia.000webhostapp.com/wp-content/uploads/2022/03/base2.jpg"></b-carousel-slide>
-        <b-carousel-slide img-src="https://gimnasioguiatiquia.000webhostapp.com/wp-content/uploads/2022/03/base3.jpg"></b-carousel-slide> -->
+        <!-- <b-carousel-slide img-src="http://gimnasioguatiquia.42web.io/wp-content/uploads/2022/03/base1.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="http://gimnasioguatiquia.42web.io/wp-content/uploads/2022/03/base2.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="http://gimnasioguatiquia.42web.io/wp-content/uploads/2022/03/base3.jpg"></b-carousel-slide> -->
         <template v-for="(data,id) in rutas" v-bind="id">
         <b-carousel-slide :key="id" :img-src="data.guid.rendered"></b-carousel-slide>
         </template>
@@ -54,7 +54,7 @@ export default {
   methods:{
     async imagenportada(){
       try{  
-        const data = await fetch('https://gimnasioguiatiquia.000webhostapp.com/wp-json/wp/v2/media/?order=desc&search=%22imgportada_%22');
+        const data = await fetch('http://gimnasioguatiquia.42web.io/wp-json/wp/v2/media/?order=desc&search=%22imgportada_%22');
         this.rutas=await data.json();
         console.warn("rutas",this.rutas);
         this.show=false;
