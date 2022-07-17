@@ -1,9 +1,9 @@
 <template>
   <!-- <Carrucel/> -->
   <div>
-    
-    <imgfondo v-if="ancho>=880" />
-    <div class="fondo2" v-else></div>
+    <div class="bodycap"></div>
+    <!-- <imgfondo v-if="ancho>=880" /> -->
+    <!-- <div class="fondo2" v-else></div> -->
       <b-row>
         <b-col md="3">
               <colapsever /> 
@@ -42,7 +42,7 @@
 <script>
 // import Colapsever from '../components/colapsever.vue';
 import Colapsever from '../components/informacion_pincipal.vue';
-import Imgfondo from "../components/Imgfondo.vue";
+// import Imgfondo from "../components/Imgfondo.vue";
 //import Carrucel from '../components/Carrucel.vue';
 //import Carrucel from './components/Carrucel.vue';
 // @ is an alias to /src
@@ -52,7 +52,7 @@ export default {
   name: "Home",
   components: {
     //  Carrucel,
-    Imgfondo,
+    // Imgfondo,
     Colapsever
   },
   data(){
@@ -118,6 +118,18 @@ export default {
   position: relative;
   height: 0px;
 }
+}
+
+.bodycap{
+  position:fixed;
+  z-index: -100;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../public/fondos/respeto.jpg");
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  left: 0px;
+  top: 0px;
 }
 
 

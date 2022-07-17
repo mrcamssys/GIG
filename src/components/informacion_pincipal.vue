@@ -14,15 +14,15 @@
                 educación solida basada en principios y valores éticos, morales
                 y culturales.
             </b-card-text>
-            <div class="divisores pl-3">
+            <!-- <div class="divisores pl-3">
                 <h3><span class="icon-info" aria-hidden="true"></span> Información institucional</h3>
             </div>
-            <Colapsever class="m-2" />
+            <Colapsever class="m-2" /> -->
 
-            <div class="divisores pl-3">
+            <!-- <div class="divisores pl-3">
                 <h3><span class="icon-newspaper" aria-hidden="true"></span> Noticias del Día</h3>
             </div>
-            <spam class="m-3">Error conectando contenido de bing news...</spam>
+            <spam class="m-3">Error conectando contenido de bing news...</spam> -->
         </div>
    </div>
   
