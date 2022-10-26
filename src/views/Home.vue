@@ -125,9 +125,10 @@ export default {
   z-index: -100;
   width: 100%;
   height: 100%;
-  background-image: url("../../public/fondos/respeto.jpg");
+  background-image: url("../../public/fondos/pagina_principal.jpg");
   background-repeat: no-repeat;
-  background-size: auto auto;
+  /* background-size: auto auto; */
+  background-size:cover;
   left: 0px;
   top: 0px;
 }

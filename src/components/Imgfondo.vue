@@ -70,6 +70,7 @@ export default {
 <style>
 .fondo {
   position: fixed;
+  
   background-size: auto 100%;
   background-repeat: no-repeat;
   width: 100%;
