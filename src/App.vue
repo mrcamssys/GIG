@@ -1,5 +1,5 @@
 <script setup>
-import ExperimentoVue from './views/experimento.vue';
+import ExperimentoVue from './components/experimento.vue';
 
 </script>
 
