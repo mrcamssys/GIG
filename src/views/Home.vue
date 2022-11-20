@@ -1,6 +1,17 @@
 <template>
   <!-- <Carrucel/> -->
   <div>
+
+<div>
+
+
+  <b-modal id="modal-tall" title="Administracion del sitio">
+    <p class="my-4" v-for="i in 20" :key="i">
+     Paginma en mantenimiento...
+    </p>
+  </b-modal>
+</div>
+  
     <div class="bodycap"></div>
     <!-- <imgfondo v-if="ancho>=880" /> -->
     <!-- <div class="fondo2" v-else></div> -->
@@ -42,6 +53,7 @@
 <script>
 // import Colapsever from '../components/colapsever.vue';
 import Colapsever from '../components/informacion_pincipal.vue';
+import { BModal } from 'bootstrap-vue'
 // import Imgfondo from "../components/Imgfondo.vue";
 //import Carrucel from '../components/Carrucel.vue';
 //import Carrucel from './components/Carrucel.vue';
@@ -54,6 +66,7 @@ export default {
     //  Carrucel,
     // Imgfondo,
     Colapsever
+    BModal
   },
   data(){
     return{
@@ -76,6 +89,8 @@ export default {
     console.warn("alto pagina",this.altopage);
     console.warn("ancho pagina",this.ancho);
     // console.warn("alto carrucel",altoimagenes);
+    
+    this.$bvModal.show("modal-tall")
   },
 
   methods:{
