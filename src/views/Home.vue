@@ -5,7 +5,7 @@
 <div>
 
 
-  <b-modal id="modal-tall" title="Administracion del sitio">
+  <b-modal id="modalTall" title="Administracion del sitio">
     <p class="my-4" v-for="i in 20" :key="i">
      Paginma en mantenimiento...
     </p>
@@ -95,8 +95,7 @@ export default {
     console.warn("alto pagina",this.altopage);
     console.warn("ancho pagina",this.ancho);
     // console.warn("alto carrucel",altoimagenes);
-    
-    this.$bvModal.show("modal-tall")
+    this.$bvModal.show("modalTall")
   },
 
   methods:{
