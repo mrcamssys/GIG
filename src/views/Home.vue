@@ -53,7 +53,12 @@
 <script>
 // import Colapsever from '../components/colapsever.vue';
 import Colapsever from '../components/informacion_pincipal.vue';
+
 import { BModal } from 'bootstrap-vue'
+import { ModalPlugin } from 'bootstrap-vue'
+
+
+
 // import Imgfondo from "../components/Imgfondo.vue";
 //import Carrucel from '../components/Carrucel.vue';
 //import Carrucel from './components/Carrucel.vue';
@@ -66,6 +71,7 @@ export default {
     //  Carrucel,
     // Imgfondo,
     Colapsever,
+    ModalPlugin,
     BModal
   },
   data(){
