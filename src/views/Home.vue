@@ -65,7 +65,7 @@ export default {
   components: {
     //  Carrucel,
     // Imgfondo,
-    Colapsever
+    Colapsever,
     BModal
   },
   data(){
