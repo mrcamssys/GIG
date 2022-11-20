@@ -33,6 +33,10 @@
   $(document).ready(function() {
     $( "#foo" ).slideUp( 300 ).delay( 10000 ).fadeIn( 400 );
 });
+  
+  $('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
+})
 </script>
     <title>Gimnasio Integral Guatiquia</title>
     <!-- <title><%= htmlWebpackPlugin.options.title %></title> -->
