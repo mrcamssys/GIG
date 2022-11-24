@@ -136,7 +136,7 @@ export default {
         'https://phet.colorado.edu/images/phet-social-media-logo.png',
         'https://www.tinkercad.com/img/favicon.ico',
         "https://www.biblored.gov.co/sites/default/files/Logo-BibloRed.png",
-        "https://www.valoraanalitik.com/wp-content/uploads/2019/11/MIN-TIC.png"
+        "https://www.educacionbogota.edu.co/portal_institucional/themes/sed_govimentum8/images/LOGO-SED-1-.png"
         ],
       imgrutas:[
         'https://phet.colorado.edu/es/simulations/browse',
