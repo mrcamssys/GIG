@@ -119,12 +119,10 @@ export default {
     
     hideModal() {
       this.$refs['my-modal'].hide()
-    }
+    },
       
       
-    positionFooter(){
-      
-    }
+
   }
   
 };
