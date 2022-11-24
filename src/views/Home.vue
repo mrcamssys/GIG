@@ -3,12 +3,13 @@
   <div>
 
 <div>
-    <b-modal ref="my-modal" hide-footer title="Using Component Methods">
+    <b-modal ref="my-modal" hide-footer title="Sistema de Notificaciones...">
       <div class="d-block text-center">
-        <h3>Hello From My Modal!</h3>
+        <h3>Admisiones y Registro</h3>
+        <img src="https://agenciadenoticias.unal.edu.co/fileadmin/legacy/4_f16d67.jpg" class="img-fluid" alt="Admisiones">
       </div>
-      <b-button class="mt-3" variant="outline-danger" block @click="hideModal">Close Me</b-button>
-      <b-button class="mt-2" variant="outline-warning" block @click="toggleModal">Toggle Me</b-button>
+      <b-button class="mt-3" variant="outline-danger" block @click="hideModal"></b-button>
+      <b-button class="mt-2" variant="outline-succes" block @click="toggleModal">Mas Informacion</b-button>
     </b-modal>
 </div>
   
