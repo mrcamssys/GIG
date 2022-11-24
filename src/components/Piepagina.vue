@@ -12,7 +12,8 @@
                </a>
               </template>
                <a href="https://www.educacionbogota.edu.co/portal_institucional/servicio-ciudadania2" target="_blank">
-                <b-img height="90px"  class="iconos" rounded="0" src="https://www.educacionbogota.edu.co/portal_institucional/themes/sed_govimentum8/images/LOGO-SED-1-.png" ></b-img>
+                <b-img height="90px"  class="iconos" rounded="0" src="
+		https://www.educacionbogota.edu.co/portal_institucional/themes/sed_govimentum8/images/LOGO-SED-2-.png" ></b-img>
                </a>
             </div>
           </mdb-col>
