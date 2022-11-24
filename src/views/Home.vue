@@ -6,10 +6,10 @@
     <b-modal ref="my-modal" hide-footer title="Sistema de Notificaciones...">
       <div class="d-block text-center">
         <h3>Admisiones y Registro</h3>
-        <img src="https://agenciadenoticias.unal.edu.co/fileadmin/legacy/4_f16d67.jpg" class="img-fluid" alt="Admisiones">
+        <img :src="baseUrl()+'logos/admisiones.png'" class="img-fluid" alt="Admisiones">
       </div>
-      <b-button class="mt-3" variant="outline-danger" block @click="hideModal"></b-button>
-      <b-button class="mt-2" variant="outline-succes" block @click="toggleModal">Mas Informacion</b-button>
+      <b-button class="mt-3" variant="outline-danger" block @click="hideModal">Salir</b-button>
+      <b-button class="mt-2" variant="outline-succes" block @click="window.open('https://api.whatsapp.com/send?phone=573192098659&app=facebook&entry_point=page_cta&fbclid=IwAR3_JrkhZ3_PrRMcdBkXuKZ4cWh1PKDE2LEnfVQj82pzyS0C6oRpdlU0rIU ', '_blank')">Mas Informacion</b-button>
     </b-modal>
 </div>
   
@@ -113,6 +113,10 @@ export default {
         console.warn("Error",e)
       };
     },
+    
+    baseUrl() {
+			return process.env.BASE_URL;
+		},
     
     showModal() {
        this.$refs['my-modal'].show()
