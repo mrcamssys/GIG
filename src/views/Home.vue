@@ -3,13 +3,13 @@
   <div>
 
 <div>
-
-
-  <b-modal id="modalTall" title="Administracion del sitio">
-    <p class="my-4" v-for="i in 20" :key="i">
-     Paginma en mantenimiento...
-    </p>
-  </b-modal>
+    <b-modal ref="my-modal" hide-footer title="Using Component Methods">
+      <div class="d-block text-center">
+        <h3>Hello From My Modal!</h3>
+      </div>
+      <b-button class="mt-3" variant="outline-danger" block @click="hideModal">Close Me</b-button>
+      <b-button class="mt-2" variant="outline-warning" block @click="toggleModal">Toggle Me</b-button>
+    </b-modal>
 </div>
   
     <div class="bodycap"></div>
@@ -95,9 +95,13 @@ export default {
     console.warn("alto pagina",this.altopage);
     console.warn("ancho pagina",this.ancho);
     // console.warn("alto carrucel",altoimagenes);
-    this.$bvModal.show("modalTall")
+ 
   },
-
+    mounted() {
+      this.showModal();
+    }
+    
+    
   methods:{
     async imagenportada(){
       try{  
@@ -108,6 +112,16 @@ export default {
         console.warn("Error",e)
       };
     },
+    
+    showModal() {
+       this.$refs['my-modal'].show()
+    },
+    
+    hideModal() {
+      this.$refs['my-modal'].hide()
+    }
+      
+      
     positionFooter(){
       
     }
