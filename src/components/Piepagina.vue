@@ -12,7 +12,7 @@
                </a>
               </template>
                <a href="https://www.educacionbogota.edu.co/portal_institucional/servicio-ciudadania2" target="_blank">
-                <b-img height="90px"  class="iconos" rounded="0" src="https://www.culturarecreacionydeporte.gov.co/sites/default/files/adjuntos_paginas_2014/logo_bogota_png_byn_rojo-01.png" ></b-img>
+                <b-img height="90px"  class="iconos" rounded="0" src="https://www.educacionbogota.edu.co/portal_institucional/themes/sed_govimentum8/images/LOGO-SED-1-.png" ></b-img>
                </a>
             </div>
           </mdb-col>
@@ -136,7 +136,7 @@ export default {
         'https://phet.colorado.edu/images/phet-social-media-logo.png',
         'https://www.tinkercad.com/img/favicon.ico',
         "https://www.biblored.gov.co/sites/default/files/Logo-BibloRed.png",
-        "https://www.educacionbogota.edu.co/portal_institucional/themes/sed_govimentum8/images/LOGO-SED-1-.png"
+	"https://www.fesacol.org/wp-content/uploads/2022/03/Mintic-Logo-300x300.png"
         ],
       imgrutas:[
         'https://phet.colorado.edu/es/simulations/browse',
