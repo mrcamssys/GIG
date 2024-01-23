@@ -5,7 +5,7 @@
 <div>
     <b-modal ref="my-modal" hide-footer title="Admisiones y Registro">
       <div class="d-block text-center">
-       	<img :src="baseUrl()+'logos/admisiones.png'" class="img-fluid" alt="Admisiones">
+       	<img :src="baseUrl()+'logos/admin.jpg'" class="img-fluid" alt="Admisiones">
         <!--<img :src="baseUrl()+'logos/valorweb.png'" class="img-fluid" alt="califica la web">-->
       </div>
       <b-button class="mt-2" variant="outline-success" block @click="openWhat">Mas Informacion</b-button>
