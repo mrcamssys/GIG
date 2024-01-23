@@ -48,7 +48,7 @@
           
           <b-btn @click="
               nuevaruta(
-                'https://educaevoluciona.com/ingreso.html'
+                'https://app.sistemasaberes.com/seguridad/login'
               )
             " class="y2"><span class="icon-calculator" aria-hidden="true"></span> Educar Norma</b-btn>
 
@@ -58,12 +58,6 @@
               )
             " class="btn-presentacion"><span class="icon-whatsapp" aria-hidden="true"></span> Whatsapp</b-btn>
 
-
-
-
-
-
-		
             <!--<b-btn @click="
               nuevaruta(
                 'https://www.avalpaycenter.com/wps/portal/portal-de-pagos/web/banco-avvillas/resultado-busqueda/realizar-pago?idConv=00016382&origen=buscar'
