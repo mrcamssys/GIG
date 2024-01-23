@@ -58,6 +58,12 @@
               )
             " class="btn-presentacion"><span class="icon-whatsapp" aria-hidden="true"></span> Whatsapp</b-btn>
 
+
+
+
+
+
+		
             <!--<b-btn @click="
               nuevaruta(
                 'https://www.avalpaycenter.com/wps/portal/portal-de-pagos/web/banco-avvillas/resultado-busqueda/realizar-pago?idConv=00016382&origen=buscar'
