@@ -42,15 +42,20 @@
             "
             class="y1"><b-icon icon="youtube" font-scale="1"></b-icon></b-btn> -->
           
-          <b-btn to="/plataformas" class="btn-presentacion"
-            ><span class="icon-books" aria-hidden="true"></span> Saberes</b-btn>
+          <!--<b-btn to="/plataformas" class="btn-presentacion"
+            ><span class="icon-books" aria-hidden="true"></span> Saberes</b-btn>-->
             
+            <b-btn @click="
+              nuevaruta(
+                'https://www.sistemasaberes.com/ingreso-a-la-plataforma/'
+              )
+            " class="btn-presentacion"><span class="icon-books" aria-hidden="true"></span>SABERES APP</b-btn>
           
           <b-btn @click="
               nuevaruta(
-                'https://educaevoluciona.com/ingreso.html'
+                'https://normacolombia.ingeniat.com/login/tipo'
               )
-            " class="y2"><span class="icon-calculator" aria-hidden="true"></span> Educar Norma</b-btn>
+            " class="y2"><span class="icon-calculator" aria-hidden="true"></span>Plataforma EDUCA</b-btn>
 
             <b-btn @click="
               nuevaruta(
@@ -58,11 +63,11 @@
               )
             " class="btn-presentacion"><span class="icon-whatsapp" aria-hidden="true"></span> Whatsapp</b-btn>
 
-            <b-btn @click="
+            <!--<b-btn @click="
               nuevaruta(
                 'https://www.avalpaycenter.com/wps/portal/portal-de-pagos/web/banco-avvillas/resultado-busqueda/realizar-pago?idConv=00016382&origen=buscar'
               )
-            " class="btn-pagovirtual"><b-icon icon="credit-card" font-scale="1"></b-icon> Pago Virual</b-btn>
+            " class="btn-pagovirtual"><b-icon icon="credit-card" font-scale="1"></b-icon> Pago Virual</b-btn>-->
             
             <!-- <b-btn to="/pagovirtual" class="btn-pagovirtual"
             ><b-icon icon="credit-card" font-scale="1"></b-icon> Pago Virual</b-btn> -->
