@@ -20,7 +20,7 @@
           </b-nav-item>
           
           
-          <!-- <b-nav-item font-scale="6" href="/blockinstitucional">Block Institucional</b-nav-item> -->
+          <b-nav-item font-scale="6" href="/blockinstitucional">Block Institucional</b-nav-item>
           
           <!-- <b-nav-item font-scale="6" href="http://gimnasioguatiquia.42web.io/wp-admin/" target="__blank">Herramientas</b-nav-item> -->
           <b-nav-item font-scale="6" href="https://login.microsoftonline.com/common/oauth2/authorize?client_id=00000002-0000-0ff1-ce00-000000000000&redirect_uri=https%3a%2f%2foutlook.office.com%2fowa%2f&resource=00000002-0000-0ff1-ce00-000000000000&response_mode=form_post&response_type=code+id_token&scope=openid&msafed=0&client-request-id=64be7ed2-0ce8-4fbc-a100-b7f0e3a939df&protectedtoken=true&domain_hint=gimnasioguatiquia.edu.co&nonce=637082168660821517.b621fb21-6bc1-48ec-a4fd-aa2e0d94e45b&state=FYvJDYAgEABBW7ANjkVYsJwFlsSEyMMY2xcfM_MaKYRYJ8tE2ikRcY82OcCE-DdA1BkdtOxAYS6gfOKiyLeqiBzbenj2Icv5bma8ZJ7rvKl31lwfXcYH&sso_reload=true" target="__blank">Correo Institucional</b-nav-item>
