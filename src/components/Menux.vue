@@ -47,7 +47,7 @@
             
             <b-btn @click="
               nuevaruta(
-                'https://hipperedu.cloud/login'
+                'https://hipperedu.cloud/login/estudiante'
               )
             " class="btn-presentacion"><span class="icon-books" aria-hidden="true"></span>Campus Virtual</b-btn>
           
