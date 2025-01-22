@@ -47,9 +47,9 @@
             
             <b-btn @click="
               nuevaruta(
-                'https://www.sistemasaberes.com/ingreso-a-la-plataforma/'
+                'https://hipperedu.cloud/login'
               )
-            " class="btn-presentacion"><span class="icon-books" aria-hidden="true"></span>SABERES APP</b-btn>
+            " class="btn-presentacion"><span class="icon-books" aria-hidden="true"></span>Campus Virtual</b-btn>
           
           <b-btn @click="
               nuevaruta(
@@ -65,11 +65,13 @@
 
             <b-btn @click="
               nuevaruta(
-                'https://www.avalpaycenter.com/wps/portal/portal-de-pagos/web/banco-avvillas/resultado-busqueda/realizar-pago?idConv=00016382&origen=buscar'
+                'https://www.mipagoamigo.com/MPA_WebSite/ServicePayments/StartPayment'
               )
             " class="btn-pagovirtual"><b-icon icon="credit-card" font-scale="1"></b-icon> Pago Virual</b-btn>
             
-            <!-- <b-btn to="/pagovirtual" class="btn-pagovirtual"
+            <!-- 
+https://www.avalpaycenter.com/wps/portal/portal-de-pagos/web/banco-avvillas/resultado-busqueda/realizar-pago?idConv=00016382&origen=buscar
+<b-btn to="/pagovirtual" class="btn-pagovirtual"
             ><b-icon icon="credit-card" font-scale="1"></b-icon> Pago Virual</b-btn> -->
 
 
