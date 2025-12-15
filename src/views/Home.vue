@@ -5,7 +5,7 @@
 <div>
     <b-modal ref="my-modal" hide-footer title="Admisiones y Registro">
       <div class="d-block text-center">
-       	<img :src="baseUrl()+'logos/admin.jpg'" class="img-fluid" alt="Admisiones">
+       	<img :src="baseUrl()+'logos/admin.png'" class="img-fluid" alt="Admisiones">
         <!--<img :src="baseUrl()+'logos/valorweb.png'" class="img-fluid" alt="califica la web">-->
       </div>
       <b-button class="mt-2" variant="outline-success" block @click="openWhat">Mas Informacion</b-button>
@@ -169,7 +169,7 @@ export default {
   z-index: -100;
   width: 100%;
   height: 100%;
-  background-image: url("../../public/fondos/pagina_principal.jpg");
+  background-image: url("../../public/fondos/pagina_principal.png");
   background-repeat: no-repeat;
   /* background-size: auto auto; */
   background-size:cover;

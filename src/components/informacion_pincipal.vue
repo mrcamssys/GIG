@@ -9,7 +9,9 @@
             </div>
             <b-card-text class="p-2">
             <!-- <iframe width="100%"  src="https://www.youtube.com/list=UUA-uViVcw5eRX70yLo1EgUw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-                <iframe src="https://www.youtube.com/embed/videoseries?list=UUA-uViVcw5eRX70yLo1EgUw" width="100%" height="240px" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                <!--<iframe src="https://www.youtube.com/watch?v=eVxDUGTOOOw" width="100%" height="240px" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>-->
+<iframe  width="100%" height="240px"  src="https://www.youtube.com/embed/CYmHSfC73Bg"  title="Festival una Travesía por Colombia Parte 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
                 El colegio Gimnasio Integral Guatiquia ofrece a la comunidad una
                 educación solida basada en principios y valores éticos, morales
                 y culturales.
