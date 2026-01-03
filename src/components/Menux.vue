@@ -47,7 +47,7 @@
             
             <b-btn @click="
               nuevaruta(
-                'https://hipperedu.cloud/login/estudiante'
+                'https://auth.sistemasaberes.com/login/new'
               )
             " class="btn-presentacion"><span class="icon-books" aria-hidden="true"></span>Campus Virtual</b-btn>
           
